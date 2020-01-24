@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HealthyAir</string>
+    <string name="tvLogin">Prueba de Branch Login</string>
 </resources>
