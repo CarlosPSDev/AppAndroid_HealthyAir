@@ -3,4 +3,5 @@
     <string name="tvLogin">Prueba de Branch Login</string>
     <string name="nombreApp">Healthy Air</string>
     <string name="msg_inicial">Enjoy Madrid</string>
+    <string name="username">Username</string>
 </resources>
