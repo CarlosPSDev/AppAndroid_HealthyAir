@@ -38,11 +38,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgIcono">
-
-
         android:id="@+id/usernameTIL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
 
         <AutoCompleteTextView
             android:id="@+id/email"
@@ -63,14 +62,14 @@
 
     <Button
         android:id="@+id/buttonLoggin"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="LOG IN"
+        android:text="Log In"
         app:layout_constraintEnd_toStartOf="@+id/buttonRegister"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="@id/linearLayout"
-        tools:layout_editor_absoluteY="253dp"
-        app:layout_constraintTop_toBottomOf="@id/linearLayout"/>
+        app:layout_constraintTop_toBottomOf="@id/linearLayout" />
 
     <Button
         android:id="@+id/buttonRegister"
@@ -79,7 +78,6 @@
         android:text="REGISTER"
         app:layout_constraintStart_toEndOf="@+id/buttonLoggin"
         app:layout_constraintEnd_toEndOf="@id/linearLayout"
-        android:background="@color/colorPrimary"
         tools:layout_editor_absoluteY="253dp"
         app:layout_constraintTop_toBottomOf="@id/linearLayout"/>
 
@@ -89,7 +87,6 @@
         android:layout_height="17dp"
         android:layout_below="@+id/buttonLoggin"
         android:layout_centerHorizontal="true"
-        android:text="fffffffffffffffff"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
