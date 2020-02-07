@@ -3,5 +3,10 @@
     <string name="tvLogin">Prueba de Branch Login</string>
     <string name="nombreApp">Healthy Air</string>
     <string name="msg_inicial">Enjoy Madrid</string>
-    <string name="username">Username</string>
+    <string name="username">\tUsername</string>
+    <string name="password">\tPassword</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="tv_olvidar">¿Has olvidado tu contraseña?</string>
+    <string name="tv_pulse">- PULSA AQUÍ -</string>
 </resources>
