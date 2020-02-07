@@ -89,7 +89,8 @@
             android:background="@drawable/corner_buttom"
             android:textSize="18sp"
             android:textColor="@color/et2"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:visibility="visible"/>
 
         <Button
             android:id="@+id/buttonRegister"
@@ -100,7 +101,8 @@
             android:layout_marginTop="10dp"
             android:textSize="18sp"
             android:textColor="@color/et2"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:visibility="visible"/>
 
     </LinearLayout>
 
