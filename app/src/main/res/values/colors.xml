@@ -7,4 +7,7 @@
     <color name="blue">#000080</color>
     <color name="blueName">#084B8A</color>
     <color name="colorFragTip">#f4f4f4</color>
+    <color name="white">#fff</color>
+    <color name="et1">#A9E2F3</color>
+    <color name="et2">#086A87</color>
 </resources>
