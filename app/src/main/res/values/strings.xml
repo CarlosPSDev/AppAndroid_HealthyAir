@@ -4,4 +4,10 @@
     <string name="nombreApp">Healthy Air</string>
     <string name="msg_inicial">Enjoy Madrid</string>
     <string name="username">Username</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_omitir">omitir</string>
+    <string name="btn_atras"><![CDATA[<]]></string>
+    <string name="btn_avanzar"><![CDATA[>]]></string>
 </resources>

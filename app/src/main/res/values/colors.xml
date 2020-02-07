@@ -6,4 +6,5 @@
     <color name="colorSplash">#F5F5DC</color>
     <color name="blue">#000080</color>
     <color name="blueName">#084B8A</color>
+    <color name="colorFragTip">#f4f4f4</color>
 </resources>
