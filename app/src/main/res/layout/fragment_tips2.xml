@@ -8,10 +8,55 @@
     tools:context=".TipsFrag2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="TIPS 2"
-        android:layout_margin="40dp"/>
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tips1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="363dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placasdgt" />
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAtras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/btn_atras" />
+
+            <Button
+                android:id="@+id/btnOmitir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="@string/btn_omitir" />
+
+            <Button
+                android:id="@+id/btnAvanzar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:text="@string/btn_avanzar" />
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>
