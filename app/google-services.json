@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "697107075798",
+    "firebase_url": "https://airhealthy-f1c09.firebaseio.com",
+    "project_id": "airhealthy-f1c09",
+    "storage_bucket": "airhealthy-f1c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697107075798:android:537d7a93c549d105b62f77",
+        "android_client_info": {
+          "package_name": "com.riluca.healthyair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697107075798-s401sl1o3pqeo72cqoa824e29f7tacka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-1_czJo__a6hXt_HlirHqSIfhUhsDIko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697107075798-s401sl1o3pqeo72cqoa824e29f7tacka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
