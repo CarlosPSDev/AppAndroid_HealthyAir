@@ -58,12 +58,5 @@
                 android:textSize="20sp"
                 android:text="@string/btn_avanzar" />
         </LinearLayout>
-
-
-
     </LinearLayout>
-
-
-
-
 </FrameLayout>
