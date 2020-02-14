@@ -1,14 +1,17 @@
 package com.riluca.healthyair;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import com.riluca.healthyair.javabean.InterfaceMethods;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity implements InterfaceMethods {
     Button btnLogin;
     Button btnRegis;
 
@@ -20,12 +23,12 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.buttonLoggin);
         btnRegis = findViewById(R.id.buttonRegister);
 
-        lanzarFragment(); //IMPORTANTE, TRAS LOGARSE OK LANZAR EL FRAGMENTO DE TIPSFRAGMENT
+        lanzarFragment(new TipsFragment()); //IMPORTANTE, TRAS LOGARSE OK LANZAR EL FRAGMENTO DE TIPSFRAGMENT
     }
 
 
 
-    private void lanzarFragment() {
+    private void lanzarFragment(Fragment fragmenLanzar) {
         //En el metodo q valide el login q lance el fragmento, para simular el tiempo le pongo un sleep
         try {
             Thread.sleep(2300);
@@ -38,8 +41,20 @@ public class LoginActivity extends AppCompatActivity {
         FragmentManager fm = getSupportFragmentManager();
         FragmentTransaction ft = fm.beginTransaction();
 
-        ft.add(R.id.flContenedor, new TipsFragment()); //No hay que referenciar el fragment, aqui ya le das el id
+        ft.replace(R.id.flContenedor, fragmenLanzar); //No hay que referenciar el fragment, aqui ya le das el id
         ft.addToBackStack(null); //Por si se da a retroceder q sepa q el fragmento tb esta
         ft.commit();
+    }
+
+    @Override
+    public void llamarSiguienteFrag() {
+        lanzarFragment(new TipsFrag2());
+    }
+
+    @Override
+    public void pasarAlMap() {
+        //Al pinchar Omitir o terminar los tips pasamos difectamente al MainActivity
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
 }
