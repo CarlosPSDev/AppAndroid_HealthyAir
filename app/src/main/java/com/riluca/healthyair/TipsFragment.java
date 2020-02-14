@@ -45,6 +45,7 @@ public class TipsFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 //Hacer un intent al activity q va despues del login
+                interfaz.pasarAlMap(); //Si omiten los tipos se pasa a la aplicacion propiamente dicha
             }
         });
 

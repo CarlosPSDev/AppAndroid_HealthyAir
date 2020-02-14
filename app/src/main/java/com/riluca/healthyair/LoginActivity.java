@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -47,5 +49,12 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
     @Override
     public void llamarSiguienteFrag() {
         lanzarFragment(new TipsFrag2());
+    }
+
+    @Override
+    public void pasarAlMap() {
+        //Al pinchar Omitir o terminar los tips pasamos difectamente al MainActivity
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
 }
