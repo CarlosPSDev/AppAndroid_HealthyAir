@@ -46,7 +46,7 @@
         android:padding="20dp">
 
         <EditText
-            android:id="@+id/email"
+            android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="@string/username"
@@ -58,7 +58,7 @@
             android:paddingLeft="10dp"/>
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:hint="@string/password"
@@ -90,7 +90,8 @@
             android:textSize="18sp"
             android:textColor="@color/et2"
             android:textStyle="bold"
-            android:visibility="visible"/>
+            android:visibility="visible"
+            android:onClick="acceder"/>
 
         <Button
             android:id="@+id/buttonRegister"
@@ -102,7 +103,8 @@
             android:textSize="18sp"
             android:textColor="@color/et2"
             android:textStyle="bold"
-            android:visibility="visible"/>
+            android:visibility="visible"
+            android:onClick="registrar"/>
 
     </LinearLayout>
 
