@@ -16,4 +16,10 @@
     <string name="btn_omitir">omitir</string>
     <string name="btn_atras"><![CDATA[<]]></string>
     <string name="btn_avanzar"><![CDATA[>]]></string>
+    <string name="tv_tips_contam">Algunos tips sobre contaminación</string>
+    <string name="tv_tip1">\tEvita salir a la calle los días de mayor \n\tcontaminación</string>
+    <string name="tv_tip2">\tLos días de más contaminación puedes usar \n\tmascarilla si tienes problemas respiratorios</string>
+    <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
+    <string name="tv_tip4">\tUtiliza bicicleta o el transporte público en la \n\tmedida de lo posible</string>
+    <string name="tv_tip5">\tPor cada grado de temperatura aumentan \n\tlas emisiones de gases un 7%</string>
 </resources>

@@ -20,7 +20,6 @@ import com.riluca.healthyair.javabean.InterfaceMethods;
 public class TipsFrag2 extends Fragment {
     Button btnAtras;
     Button btnOmitir;
-    Button btnAvanzar;
     InterfaceMethods interfaz;
 
 
@@ -34,7 +33,21 @@ public class TipsFrag2 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_tips2, container, false);
+        btnAtras = v.findViewById(R.id.btnAtras2);
+        btnOmitir = v.findViewById(R.id.btnOmitir2);
 
+        btnAtras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                interfaz.llamarSiguienteFrag(); //Cambiarlo, se llama al fragmento anterior
+            }
+        });
+        btnOmitir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
+            }
+        });
 
         return v;
     }

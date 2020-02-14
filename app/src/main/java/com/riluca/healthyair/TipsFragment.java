@@ -20,7 +20,6 @@ import com.riluca.healthyair.javabean.InterfaceMethods;
  * A simple {@link Fragment} subclass.
  */
 public class TipsFragment extends Fragment {
-    Button btnAtras;
     Button btnOmitir;
     Button btnAvanzar;
     InterfaceMethods interfaz;
