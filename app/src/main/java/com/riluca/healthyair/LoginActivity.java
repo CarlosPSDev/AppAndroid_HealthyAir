@@ -144,8 +144,8 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
     }
 
     @Override
-    public void llamarSiguienteFrag() {
-        lanzarFragment(new TipsFrag2());
+    public void llamarFrag(Fragment frag) {
+        lanzarFragment(frag);
     }
 
     @Override

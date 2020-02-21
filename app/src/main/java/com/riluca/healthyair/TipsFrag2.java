@@ -18,6 +18,7 @@ import com.riluca.healthyair.javabean.InterfaceMethods;
  * A simple {@link Fragment} subclass.
  */
 public class TipsFrag2 extends Fragment {
+    Button btnSig;
     Button btnAtras;
     Button btnOmitir;
     InterfaceMethods interfaz;
@@ -35,17 +36,25 @@ public class TipsFrag2 extends Fragment {
         View v = inflater.inflate(R.layout.fragment_tips2, container, false);
         btnAtras = v.findViewById(R.id.btnAtras2);
         btnOmitir = v.findViewById(R.id.btnOmitir2);
+        btnSig = v.findViewById(R.id.btnAvanzar2);
 
         btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                interfaz.llamarSiguienteFrag(); //Cambiarlo, se llama al fragmento anterior
+                interfaz.llamarFrag(new TipsFragment()); //Cambiarlo, se llama al fragmento anterior (1)
             }
         });
         btnOmitir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
+            }
+        });
+
+        btnSig.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                interfaz.llamarFrag(new TipsFrag3()); //LLamamos al fragmento 3 (siguiente)
             }
         });
 
