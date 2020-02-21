@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+
 import androidx.fragment.app.Fragment;
 
 import com.riluca.healthyair.javabean.InterfaceMethods;
@@ -15,6 +17,8 @@ import com.riluca.healthyair.javabean.InterfaceMethods;
  */
 public class TipsFrag3 extends Fragment {
     InterfaceMethods interfaz;
+    Button btnAtras;
+    Button btnOmitir;
 
 
     public TipsFrag3() {
@@ -27,6 +31,21 @@ public class TipsFrag3 extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_tips_frag3, container, false);
+        btnAtras = v.findViewById(R.id.btnAtras3);
+        btnOmitir = v.findViewById(R.id.btnOmitir3);
+
+        btnAtras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                interfaz.llamarFrag(new TipsFrag2()); //Cambiarlo, se llama al fragmento anterior (1)
+            }
+        });
+        btnOmitir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
+            }
+        });
 
         return v;
     }

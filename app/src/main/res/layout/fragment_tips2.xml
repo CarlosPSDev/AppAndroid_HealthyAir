@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+
     android:background="@color/colorFragTip2"
     tools:context=".TipsFrag2">
 
@@ -32,46 +32,41 @@
             android:layout_marginTop="25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="17.5sp"
             android:drawableLeft="@drawable/vinetas"
-            android:textSize="16sp"
-            android:textStyle="bold"
             android:text="@string/tv_tip1"/>
         <TextView
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="17.5sp"
             android:drawableLeft="@drawable/vinetas"
-            android:textSize="16sp"
-            android:textStyle="bold"
             android:text="@string/tv_tip2"/>
         <TextView
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="17.5sp"
             android:drawableLeft="@drawable/vinetas"
-            android:textSize="16sp"
-            android:textStyle="bold"
             android:text="@string/tv_tip3"/>
         <TextView
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="17.5sp"
             android:drawableLeft="@drawable/vinetas"
-            android:textSize="16sp"
-            android:textStyle="bold"
             android:text="@string/tv_tip4"/>
         <TextView
             android:layout_marginTop="15dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="17.5sp"
             android:drawableLeft="@drawable/vinetas"
-            android:textSize="16sp"
-            android:textStyle="bold"
             android:text="@string/tv_tip5"/>
 
         <LinearLayout

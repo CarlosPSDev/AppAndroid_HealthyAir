@@ -26,4 +26,9 @@
     <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
     <string name="tv_tip4">\tUtiliza bicicleta o el transporte público en la \n\tmedida de lo posible</string>
     <string name="tv_tip5">\tPor cada grado de temperatura aumentan \n\tlas emisiones de gases un 7%</string>
+    <string name="tv_tip6">\tLos niños y ancianos son especialmente \n\tvulnerables a la contaminación</string>
+    <string name="tv_tip7">\tSi estás embarazada, procura llevar mascarilla \n\tlos días de mayor alerta</string>
+    <string name="tv_tip8">\tRespeta las restricciones de velocidad y acceso \n\tde vehículos a zonas centrales</string>
+    <string name="tv_tip9">\tCierra la llave de la calefacción en las \n\thabitaciones que no utilices</string>
+    <string name="tv_tip10">\tVentila la casa en la la hora en que la \n\ttemperatura es más favorable</string>
 </resources>
