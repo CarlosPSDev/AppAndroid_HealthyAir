@@ -24,7 +24,7 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
 
         logo = (ImageView)findViewById(R.id.ivLogo);
         tvMensaje = (TextView)findViewById(R.id.tvMensajeInicio);
