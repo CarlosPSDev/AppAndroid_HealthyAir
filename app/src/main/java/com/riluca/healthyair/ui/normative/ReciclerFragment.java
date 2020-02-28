@@ -35,7 +35,7 @@ public class ReciclerFragment extends Fragment {
         list.add("TRES");
         RecyclerView reciclerView = v.findViewById(R.id.recicler_view);
         reciclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        reciclerView.setAdapter(new RecyclerViewAdapter());
+        reciclerView.setAdapter(new RecyclerViewAdapter(list));
         return v;
     }
 
@@ -58,6 +58,12 @@ public class ReciclerFragment extends Fragment {
 
     private class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder>{
 
+        private List<String> mList;
+
+        public RecyclerViewAdapter(List<String> list) {
+            this.mList = list;
+        }
+
         @NonNull
         @Override
         public RecyclerViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -69,12 +75,12 @@ public class ReciclerFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(@NonNull RecyclerViewHolder holder, int position) {
-
+            holder.myTextView.setText(mList.get(position));
         }
 
         @Override
         public int getItemCount() {
-            return 5;
+            return mList.size();
         }
     }
 
