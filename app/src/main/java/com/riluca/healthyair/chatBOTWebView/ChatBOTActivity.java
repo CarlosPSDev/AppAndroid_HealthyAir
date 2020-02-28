@@ -21,7 +21,7 @@ public class ChatBOTActivity extends AppCompatActivity {
         wv = (WebView) findViewById(R.id.chat_w_v);
         WebSettings webSettings = wv.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        wv.loadUrl("https://console.dialogflow.com/api-client/demo/embedded/8eebcfbf-4428-4f69-93e2-d352a452efca");
+        wv.loadUrl("https://console.dialogflow.com/api-client/demo/embedded/8d49e672-5fc9-424c-91a5-f8f8aef8288e");
 
     }
 }
