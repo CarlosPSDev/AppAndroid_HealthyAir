@@ -1,6 +1,7 @@
 package com.riluca.healthyair;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +18,7 @@ import com.riluca.healthyair.javabean.InterfaceMethods;
  */
 public class TipsFrag3 extends Fragment {
     InterfaceMethods interfaz;
+    Button btnSiguiente;
     Button btnAtras;
     Button btnOmitir;
 
@@ -33,6 +35,7 @@ public class TipsFrag3 extends Fragment {
         View v = inflater.inflate(R.layout.fragment_tips_frag3, container, false);
         btnAtras = v.findViewById(R.id.btnAtras3);
         btnOmitir = v.findViewById(R.id.btnOmitir3);
+        btnSiguiente = v.findViewById(R.id.btnAvanzar3);
 
         btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +47,14 @@ public class TipsFrag3 extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
+            }
+        });
+
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), EstacionesActivity.class);
+                startActivity(i); //Provisionalmente llama
             }
         });
 
