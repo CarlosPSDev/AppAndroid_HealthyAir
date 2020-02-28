@@ -25,6 +25,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.MapsInitializer;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -111,9 +112,26 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
 
             // Código para añadir marcador en el mapa
             LatLng = new LatLng(32.533890,-117.037507);
-            LatLng bar2 = new LatLng(32.514054,-117.031813);
-            mGoogleMap.addMarker(new MarkerOptions().position(bar2).title("Mamut (Calle 3ra)").snippet("Aquí se sirve la cerveza #1"));
-            mGoogleMap.addMarker(new MarkerOptions().position(bar2).title("Cervecería Tijuana (Fundadores)").snippet("Aquí se sirve la cerveza #2"));
+            LatLng loc = new LatLng(32.514054,-117.031813);
+            mGoogleMap.addMarker(new MarkerOptions().position(loc).title("Tu posición"));
+            mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 14));
+            mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+            mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
+
+            mGoogleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
+                @Override
+                public void onMapClick(LatLng latLng) {
+                    mGoogleMap.addMarker(new MarkerOptions()
+                            .position(latLng)
+                            .title("Nueva posición")
+                            .snippet("Lat: " + latLng.latitude + ", Long: " + latLng.longitude)
+                            .icon(BitmapDescriptorFactory.defaultMarker(
+                                    BitmapDescriptorFactory.HUE_GREEN))
+                    );
+                    mGoogleMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
+                }
+            });
+
         }
     }
     private void getLastLocation() {

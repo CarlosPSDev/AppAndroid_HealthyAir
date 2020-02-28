@@ -1,4 +1,4 @@
-package com.riluca.healthyair.ui.gallery;
+package com.riluca.healthyair.ui.normative;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
