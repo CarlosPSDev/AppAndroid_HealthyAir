@@ -1,4 +1,4 @@
-package com.riluca.healthyair.ui.slideshow;
+package com.riluca.healthyair.ui.contaminantes;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

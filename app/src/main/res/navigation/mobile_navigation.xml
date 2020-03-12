@@ -12,16 +12,16 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_normativa"
         android:name="com.riluca.healthyair.ui.normative.NormativeFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_normative" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.riluca.healthyair.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.riluca.healthyair.ui.contaminantes.ContFragment"
+        android:label="@string/menu_contaminantes"
+        tools:layout="@layout/fragment_contaminantes" />
 
     <fragment
         android:id="@+id/nav_tools"
