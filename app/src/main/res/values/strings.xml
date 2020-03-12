@@ -48,4 +48,15 @@
     <string name="menu_contaminantes">Componentes del aire</string>
     <string name="btn_normativa_saber_mas">Saber más</string>
     <string name="action_acerca_de">Acerca de HealthyAir</string>
+
+
+    <string name="nombre_desarrollador_1">Carlos Pardos</string>
+    <string name="descripcion_desarrollador_1">Software developer, Tester and Apprentice of the team</string>
+
+    <string name="nombre_desarrollador_2">Luis Fernández</string>
+    <string name="descripcion_desarrollador_2">CEO, Software developer, Analyst and Master Designer</string>
+
+    <string name="nombre_desarrollador_3">Ricardo Gutierrez</string>
+    <string name="descripcion_desarrollador_3">Software developer, Technical assistant and Junior Designer </string>
+    <string name="texto_desc_app">HealthyAir\n Universidad Europea de Madrid\nMadrid 2020</string>
 </resources>
