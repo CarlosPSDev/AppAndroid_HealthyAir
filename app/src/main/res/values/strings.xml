@@ -59,4 +59,5 @@
     <string name="nombre_desarrollador_3">Ricardo Gutierrez</string>
     <string name="descripcion_desarrollador_3">Software developer, Technical assistant and Junior Designer </string>
     <string name="texto_desc_app">HealthyAir\n Universidad Europea de Madrid\nMadrid 2020</string>
+    <string name="menu_marcadores">Estaciones</string>
 </resources>

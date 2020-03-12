@@ -62,7 +62,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
         if (item.getItemId() == R.id.action_quienes_somos) {
-
             Intent i = new Intent(getApplicationContext(), QuienesActivity.class);
             startActivity(i);
         }
