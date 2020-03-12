@@ -54,7 +54,7 @@ public class TipsFrag3 extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getContext(), EstacionesActivity.class);
-                startActivity(i); //Provisionalmente llama
+                startActivity(i); //Provisionalmente llama al Estaciones Activity pero cambiarlo pra q salga el Navigation drawer
             }
         });
 

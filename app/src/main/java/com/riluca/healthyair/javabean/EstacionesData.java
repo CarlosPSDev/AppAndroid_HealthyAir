@@ -19,7 +19,7 @@ public class EstacionesData {
         db = FirebaseFirestore.getInstance();
     }
 
-    public void consultarEstaciones(){
+    /*public void consultarEstaciones(){
         db.collection("Estaciones")
                 .get()
                 .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
@@ -32,18 +32,19 @@ public class EstacionesData {
                                 listadoEstaciones.add(estacion);
                                 Log.d("resul", "result Data: " + estacion.getNombre());
                             }
+
                             Log.d("resul", "result Data EstacionesLocal: " + listadoEstaciones.size());//Imprime que tiene 26 elementos
                         } else {
                             Log.w("Ha habido un error", "Error getting documents.", task.getException());
                         }
                     }
                 });
-    }
+    }*/
 
-    public ArrayList<Estacion> getListadoEstaciones() {
+    /*public ArrayList<Estacion> getListadoEstaciones() {
         Log.d("resul", "getListadoEstaciones: " + listadoEstaciones.size());
         return listadoEstaciones;
-    }
+    }*/
 
     public void insertarEstacionesBD(){ //Método para la inserción inicial de las estaciones en la BD
         ArrayList<Estacion> listaEstaciones = rellenarArray();
