@@ -15,9 +15,9 @@ public class QuienesActivity extends AppCompatActivity {
     ImageView ivFoto;
     TextView tvNombre;
     TextView tvDescripcion;
-    String[] nombres;   // Array con el nombre de todos los desarrolladores
-    String[] descripciones;  // Array con la descripcion de todos los desarrolladores
-    int desarrolladoractual;  // Indica que desarrollador es el que se esta mostrando en cada caso
+    String[] nombres;
+    String[] descripciones;
+    int desarrolladoractual;
     float x1, x2;
     float y1, y2;
 
@@ -32,19 +32,13 @@ public class QuienesActivity extends AppCompatActivity {
         nombres = new String[3];
         descripciones = new String[3];
 
-        rellenarArrays();  // Rellenadmos los arrays de nombres y descripciones de todos los desarrolladores
-        desarrolladoractual = 1;  // Comenzamos pintando al desarrollador 1
-        rellenarViews();    // Actualizamos los views
-
-
-
+        rellenarArrays();
+        desarrolladoractual = 1;
+        rellenarViews();
     }
 
     public void rellenarViews() {
-        //Dependiendo de quien es el desarrolladoractual, pone en cada imagen y
-        // textView su texo e imagen correspondientes
-        //En el switch según el valor del desarrolladoractual coge un recurso u otro de las fotos y la pega
-        //en el ImageView
+
         tvNombre.setText(nombres[desarrolladoractual - 1]);
         tvDescripcion.setText(descripciones[desarrolladoractual - 1]);
         switch (desarrolladoractual) {
@@ -61,7 +55,7 @@ public class QuienesActivity extends AppCompatActivity {
     }
 
     public void rellenarArrays() {
-        //Rellenamos el array, con los nombres y las descripciones sacándolos del fichero Strings
+
         nombres[0] = getResources().getString(R.string.nombre_desarrollador_1);
         nombres[1] = getResources().getString(R.string.nombre_desarrollador_2);
         nombres[2] = getResources().getString(R.string.nombre_desarrollador_3);
@@ -95,7 +89,6 @@ public class QuienesActivity extends AppCompatActivity {
                     rellenarViews();
                 }
 
-                // Si la cordenada x inicia es mayor que dode la he soltado, me muevo de derecha a izquierda
                 if (x1 > x2) {
                     desarrolladoractual++;
                     if (desarrolladoractual == 4) {
