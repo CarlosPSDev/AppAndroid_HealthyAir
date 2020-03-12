@@ -22,7 +22,6 @@ public class NormativeFragment extends Fragment {
     ArrayList<Escenario> listaDatos;
     EscenarioAdapter adapter;
 
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -40,7 +39,6 @@ public class NormativeFragment extends Fragment {
         rv.setAdapter(adapter);
 
         return vista;
-
     }
 
     private void rellenarLista() {

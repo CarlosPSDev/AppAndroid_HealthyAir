@@ -46,4 +46,6 @@
     <string name="nav_header_mailUser">xxxxx@xxx.com</string>
     <string name="menu_normative">Normativa</string>
     <string name="menu_contaminantes">Componentes del aire</string>
+    <string name="btn_normativa_saber_mas">Saber más</string>
+    <string name="action_acerca_de">Acerca de HealthyAir</string>
 </resources>
