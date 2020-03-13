@@ -25,9 +25,9 @@
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.riluca.healthyair.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
+        android:name="com.riluca.healthyair.ui.Estaciones.EstacionesFragment"
+        android:label="@string/menu_estaciones"
+        tools:layout="@layout/fragment_estaciones" />
 
     <fragment
         android:id="@+id/nav_share"

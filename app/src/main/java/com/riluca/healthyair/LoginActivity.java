@@ -1,17 +1,17 @@
 package com.riluca.healthyair;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -97,7 +97,9 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
                         etEmail.setText("");
                         etPassword.setText("");
 
-                        lanzarFragment(new TipsFragment());
+                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(i);
+                        //lanzarFragment(new TipsFragment());
 
                     } else {
                         Toast.makeText(LoginActivity.this, getString(R.string.msg_no_accede), Toast.LENGTH_SHORT).show();

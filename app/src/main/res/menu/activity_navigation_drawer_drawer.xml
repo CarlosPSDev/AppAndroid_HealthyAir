@@ -14,7 +14,6 @@
             android:title="@string/menu_normative" />
         <item
             android:id="@+id/nav_slideshow"
-
             android:icon="@drawable/cloud"
             android:title="@string/menu_contaminantes" />
         <item
