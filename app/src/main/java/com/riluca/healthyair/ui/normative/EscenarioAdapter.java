@@ -3,6 +3,7 @@ package com.riluca.healthyair.ui.normative;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -39,17 +40,19 @@ public class EscenarioAdapter extends RecyclerView.Adapter<EscenarioAdapter.Esce
 
     public static class EscenarioViewHolder extends RecyclerView.ViewHolder{
 
+        private ImageView ivPhoto;
         private TextView tvSuperior;
         private TextView tvInferior;
 
-
         public EscenarioViewHolder(View itemView) {
             super(itemView);
+            ivPhoto = itemView.findViewById(R.id.ivPhoto);
             tvSuperior = itemView.findViewById(R.id.tvTextoSuperior);
             tvInferior = itemView.findViewById(R.id.tvTextoInferior);
         }
 
         public void bindItemLista(Escenario e){
+            ivPhoto.setImageResource(e.getIvPhoto());
             tvSuperior.setText(e.getTextoSuperior());
             tvInferior.setText(e.getTextoInferior());
         }

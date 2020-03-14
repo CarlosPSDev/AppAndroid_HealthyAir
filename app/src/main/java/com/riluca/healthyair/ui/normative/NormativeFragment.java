@@ -42,11 +42,11 @@ public class NormativeFragment extends Fragment {
     }
 
     private void rellenarLista() {
-        listaDatos.add(new Escenario("ESCENARIO 1\n","Actuaciones:\n" +
+        listaDatos.add(new Escenario(R.drawable.logo_madrid, "ESCENARIO 1\n","Actuaciones:\n" +
                 "· 1 día con superación del nivel de preaviso.\n " +
                 "- Medidas de promoción del transporte público.\n" +
                 "- Reducción de la velocidad a 70 km/h en la M-30 y accesos. "));
-        listaDatos.add(new Escenario("ESCENARIO 2\n","Actuaciones:\n" +
+        listaDatos.add(new Escenario(R.drawable.logo_madrid,"ESCENARIO 2\n","Actuaciones:\n" +
                 "· 2 días consecutivos con superación del nivel de preaviso o 1 día con superación del nivel de aviso.\n " +
                 "- Medidas de promoción y refuerzo del transporte público.\n" +
                 "- Reducción de la velocidad a 70 km/h en la M-30 y accesos.\n" +
@@ -57,7 +57,7 @@ public class NormativeFragment extends Fragment {
                 "- Prohibición del estacionamiento en las plazas y horario del Servicio de\n" +
                 "Estacionamiento Regulado (SER) a los vehículos a motor que no tengan la clasificación ambiental de “CERO EMISIONES” o “ECO” en el Registro de\n" +
                 "Vehículos de la Dirección General de Tráfico."));
-        listaDatos.add(new Escenario("ESCENARIO 3\n" ,"Actuaciones:\n" +
+        listaDatos.add(new Escenario(R.drawable.logo_madrid,"ESCENARIO 3\n" ,"Actuaciones:\n" +
                 "· 3 días consecutivos con superación del nivel de preaviso o 2 días consecutivos con superación del nivel de aviso.\n " +
                 "- Medidas de promoción y refuerzo del transporte público.\n" +
                 "- Reducción de la velocidad a 70 km/h en la M-30 y accesos.\n" +
@@ -75,7 +75,7 @@ public class NormativeFragment extends Fragment {
                 "municipal. Estos vehículos podrán estacionar en las plazas del SER, además de\n" +
                 "en sus paradas habituales a la espera de viajeros, en los términos que se\n" +
                 "establezcan en la Ordenanza de Movilidad Sostenible"));
-        listaDatos.add(new Escenario("ESCENARIO 4\n" , "Actuaciones:\n" +
+        listaDatos.add(new Escenario(R.drawable.logo_madrid,"ESCENARIO 4\n" , "Actuaciones:\n" +
                 "· 4 días consecutivos con superación del nivel de aviso.\n " +
                 "- Medidas de promoción y refuerzo del transporte público.\n" +
                 "- Reducción de la velocidad a 70 km/h en la M-30 y accesos.\n" +
@@ -96,7 +96,7 @@ public class NormativeFragment extends Fragment {
                 "municipal. Estos vehículos podrán estacionar en las plazas del SER, además de\n" +
                 "en sus paradas habituales a la espera de viajeros, en los términos que se\n" +
                 "establezcan en la Ordenanza de Movilidad Sostenible"));
-        listaDatos.add(new Escenario("ESCENARIO ALERTA\n", "Actuaciones:\n" +
+        listaDatos.add(new Escenario(R.drawable.logo_madrid,"ESCENARIO ALERTA\n", "Actuaciones:\n" +
                 "- Medidas de promoción y refuerzo del transporte público.\n" +
                 "- Reducción de la velocidad a 70 km/h en la M-30 y accesos\n" +
                 "- Prohibición de la circulación en todo el término municipal a los vehículos a\n" +

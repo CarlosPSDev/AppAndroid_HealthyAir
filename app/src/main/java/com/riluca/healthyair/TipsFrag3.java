@@ -1,7 +1,6 @@
 package com.riluca.healthyair;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -47,14 +46,6 @@ public class TipsFrag3 extends Fragment {
             @Override
             public void onClick(View v) {
                 interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
-            }
-        });
-
-        btnSiguiente.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getContext(), EstacionesActivity.class);
-                startActivity(i); //Provisionalmente llama al Estaciones Activity pero cambiarlo pra q salga el Navigation drawer
             }
         });
 
