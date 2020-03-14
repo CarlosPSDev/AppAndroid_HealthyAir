@@ -33,13 +33,11 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
     GoogleMap mGoogleMap;
     MapView mMapView;
     View mView;
-    //ArrayList<Estacion> resultadoConsulta = new ArrayList<>();
 
     private Object LatLng; //<-- Esto se usa?
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
-        //consultarEstaciones();
         super.onCreate(savedInstanceState);
     }
 
@@ -59,37 +57,13 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
         }
     }
 
-    /*@Override   COMENTO TU METODO PARA NO MODIFICAR NADA, Y HAGO EL MIO ABAJO A VER SI TIRA
-    public void onMapReady(GoogleMap googleMap) {
-
-        MapsInitializer.initialize(getContext());
-
-        mGoogleMap = googleMap;
-        mGoogleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-
-        for(int i = 0; i < resultadoConsulta.size(); i ++){
-
-            Log.d("resul", "result Data EstacionesLocal: " + resultadoConsulta.size());
-            //LatLng loc = new LatLng(40.534838332582964,-3.618579246103764);
-
-            LatLng loc = new LatLng(Double.parseDouble(resultadoConsulta.get(i).getLatitud()),
-                    Double.parseDouble(resultadoConsulta.get(i).getLongitud()));
-            mGoogleMap = googleMap;
-            mGoogleMap.addMarker(new MarkerOptions().position(loc)
-                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-            mGoogleMap.animateCamera(CameraUpdateFactory .newLatLngZoom (loc,14f ));
-            mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
-
-        }
-    }*/
-
     @Override
     public void onMapReady(final GoogleMap googleMap) { //Me ha obligado a ponerlo final peor no deberia suponer ningun problema
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         MapsInitializer.initialize(getContext());
 
         mGoogleMap = googleMap;
-        mGoogleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+        mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         //Meto aqui la consulta
         db.collection("Estaciones")
                 .get()
@@ -107,40 +81,23 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
                                 LatLng loc = new LatLng(Double.parseDouble(estacion.getLatitud()),
                                         Double.parseDouble(estacion.getLongitud())); //Aqui guarda directamente el valor de la estacion
                                 mGoogleMap = googleMap;//<--Esto hay que volver a hacerlo en cada iteracion? Si ya esta arriba y no hace falta quitamos el Final
-                                mGoogleMap.addMarker(new MarkerOptions().position(loc)
-                                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-                                mGoogleMap.animateCamera(CameraUpdateFactory .newLatLngZoom (loc,14f ));
+                                mGoogleMap.addMarker(new MarkerOptions()
+                                        .position(loc)
+                                        .title(estacion.getNombre())
+                                        .snippet(estacion.getDireccion())
+                                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.loc_estation)));
+                                mGoogleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(loc,11f ));
                                 mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
 
                                 //listaEstaciones.add(estacion);
                                 //Log.d("resul", "result Data: " + estacion.getNombre());
                             }
-                            //Log.d("resul", "result Data EstacionesLocal: " + listaEstaciones.size());//Imprime que tiene 26 elementos
-                            //resultadoConsulta = listaEstaciones;
-                            //Log.d("resul", "result Data resulConsulta: " + resultadoConsulta.size());
 
                         } else {
                             Log.w("Ha habido un error", "Error getting documents.", task.getException());
                         }
                     }
                 });
-
-
-
-        /*for(int i = 0; i < resultadoConsulta.size(); i ++){
-
-            Log.d("resul", "result Data EstacionesLocal: " + resultadoConsulta.size());
-            //LatLng loc = new LatLng(40.534838332582964,-3.618579246103764);
-
-            LatLng loc = new LatLng(Double.parseDouble(resultadoConsulta.get(i).getLatitud()),
-                    Double.parseDouble(resultadoConsulta.get(i).getLongitud()));
-            mGoogleMap = googleMap;
-            mGoogleMap.addMarker(new MarkerOptions().position(loc)
-                    .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
-            mGoogleMap.animateCamera(CameraUpdateFactory .newLatLngZoom (loc,14f ));
-            mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
-
-        }*/
     }
 
     /*public void consultarEstaciones(){

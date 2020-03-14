@@ -23,7 +23,7 @@ public class EscenarioAdapter extends RecyclerView.Adapter<EscenarioAdapter.Esce
     @NonNull
     @Override
     public EscenarioViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_lista_normativa, null, false);
+        View vista = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_view, null, false);
         return new EscenarioViewHolder(vista);
     }
 

@@ -62,6 +62,8 @@
     <string name="menu_marcadores">Estaciones</string>
     <string name="title_activity_maps">Map</string>
     <string name="menu_estaciones">Estaciones</string>
+    <string name="nav_datos_reales">Datos en tiempo real</string>
     <string name="menu_datos_reales">Datos en tiempo real</string>
-    <string name="text_datos_reales">Calidad del aire: Datos en tiempo real</string>
+    <string name="text_fragment_datos_reales">Información en tiempo real:</string>
+
 </resources>

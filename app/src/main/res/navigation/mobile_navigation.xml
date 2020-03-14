@@ -30,6 +30,12 @@
         tools:layout="@layout/fragment_estaciones" />
 
     <fragment
+        android:id="@+id/nav_datos_reales"
+        android:name="com.riluca.healthyair.ui.datosReales.RealDatosFragment"
+        android:label="@string/menu_datos_reales"
+        tools:layout="@layout/fragment_realdatos" />
+
+    <fragment
         android:id="@+id/nav_share"
         android:name="com.riluca.healthyair.ui.share.ShareFragment"
         android:label="@string/menu_share"

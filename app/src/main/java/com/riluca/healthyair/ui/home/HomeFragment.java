@@ -104,7 +104,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
             LatLng loc = new LatLng(32.514054,-117.031813);
             mGoogleMap.addMarker(new MarkerOptions().position(loc).title("Tu posición"));
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 14));
-            mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+            mGoogleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
             mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
 
             mGoogleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
