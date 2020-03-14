@@ -9,6 +9,8 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class EstacionesData {
     private ArrayList<Estacion> listadoEstaciones;
@@ -82,5 +84,57 @@ public class EstacionesData {
         listaEstaciones.add(new Estacion("114","Matadero 01","Paseo de la Chopera, 10","-3.697631","40.3925444"));
         listaEstaciones.add(new Estacion("115","Matadero 02","Paseo de la Chopera, 10","-3.697631","40.3925444"));
         return listaEstaciones;
+    }
+    public Map<String, String> mapearEstaciones(){ //Mapa que mostrará el nombre de la estación de la alerta según el código recibido
+        Map<String, String>estaciones = new HashMap<String, String>();
+        estaciones.put("004", "Pza. de España");
+        estaciones.put("008", "Escuelas Aguirre");
+        estaciones.put("011", "Av. Ramón y Cajal");
+        estaciones.put("016", "Arturo Soria");
+        estaciones.put("017", "Villaverde Alto");
+        estaciones.put("018", "C/ Farolillo");
+        estaciones.put("036", "Moratalaz");
+        estaciones.put("024", "Casa de Campo");
+        estaciones.put("027", "Barajas");
+        estaciones.put("035", "Pza. del Carmen");
+        estaciones.put("038", "Cuatro Caminos");
+        estaciones.put("039", "Barrio del Pilar");
+        estaciones.put("040", "Vallecas");
+        estaciones.put("047", "Méndez Álvaro");
+        estaciones.put("048", "Pº. Castellana");
+        estaciones.put("049", "Retiro");
+        estaciones.put("050", "Pza. Castilla");
+        estaciones.put("054", "Ensanche Vallecas");
+        estaciones.put("055", "Urb. Embajada (Barajas)");
+        estaciones.put("056", "Plaza Elíptica");
+        estaciones.put("057", "Sanchinarro");
+        estaciones.put("058", "El Pardo");
+        estaciones.put("059", "Parque Juan Carlos I");
+        estaciones.put("060", "Tres Olivos");
+
+        return estaciones;
+    }
+
+    public Map<Integer, String> mapearMagnitudes(){ //Método que traducirá el código de la magnitud a su significado
+        Map<Integer, String>magnitudes = new HashMap<Integer, String>();
+        magnitudes.put(1, "Dióxido de Azufre");
+        magnitudes.put(6, "Monóxido de Carbono");
+        magnitudes.put(7, "Monóxido de Nitrógeno");
+        magnitudes.put(8, "Dióxido de Nitrógeno");
+        magnitudes.put(9, "Partículas < 2.5 μm");
+        magnitudes.put(10, "Partículas < 10 μm");
+        magnitudes.put(12, "Óxidos de Nitrógeno");
+        magnitudes.put(14, "Ozono");
+        magnitudes.put(20, "Tolueno");
+        magnitudes.put(30, "Benceno");
+        magnitudes.put(35, "Etilbenceno");
+        magnitudes.put(37, "Metaxileno");
+        magnitudes.put(38, "Paraxileno");
+        magnitudes.put(39, "Ortoxileno");
+        magnitudes.put(42, "Hidrocarburos totales(hexano)");
+        magnitudes.put(43, "Metano");
+        magnitudes.put(44, "Hidrocarburosno metánicos (hexano)");
+
+        return magnitudes;
     }
 }
