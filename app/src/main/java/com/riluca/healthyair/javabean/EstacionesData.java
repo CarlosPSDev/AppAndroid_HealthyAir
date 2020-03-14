@@ -9,6 +9,8 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class EstacionesData {
     private ArrayList<Estacion> listadoEstaciones;
@@ -82,5 +84,34 @@ public class EstacionesData {
         listaEstaciones.add(new Estacion("114","Matadero 01","Paseo de la Chopera, 10","-3.697631","40.3925444"));
         listaEstaciones.add(new Estacion("115","Matadero 02","Paseo de la Chopera, 10","-3.697631","40.3925444"));
         return listaEstaciones;
+    }
+    public Map<String, String> mapearEstaciones(){
+        Map<String, String>estaciones = new HashMap<String, String>();
+        estaciones.put("004", "Pza. de España");
+        estaciones.put("008", "Escuelas Aguirre");
+        estaciones.put("011", "Av. Ramón y Cajal");
+        estaciones.put("016", "Arturo Soria");
+        estaciones.put("017", "Villaverde Alto");
+        estaciones.put("018", "C/ Farolillo");
+        estaciones.put("036", "Moratalaz");
+        estaciones.put("024", "Casa de Campo");
+        estaciones.put("027", "Barajas");
+        estaciones.put("035", "Pza. del Carmen");
+        estaciones.put("038", "Cuatro Caminos");
+        estaciones.put("039", "Barrio del Pilar");
+        estaciones.put("040", "Vallecas");
+        estaciones.put("047", "Méndez Álvaro");
+        estaciones.put("048", "Pº. Castellana");
+        estaciones.put("049", "Retiro");
+        estaciones.put("050", "Pza. Castilla");
+        estaciones.put("054", "Ensanche Vallecas");
+        estaciones.put("055", "Urb. Embajada (Barajas)");
+        estaciones.put("056", "Plaza Elíptica");
+        estaciones.put("057", "Sanchinarro");
+        estaciones.put("058", "El Pardo");
+        estaciones.put("059", "Parque Juan Carlos I");
+        estaciones.put("060", "Tres Olivos");
+
+        return estaciones;
     }
 }
