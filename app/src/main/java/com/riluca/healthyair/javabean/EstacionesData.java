@@ -85,7 +85,7 @@ public class EstacionesData {
         listaEstaciones.add(new Estacion("115","Matadero 02","Paseo de la Chopera, 10","-3.697631","40.3925444"));
         return listaEstaciones;
     }
-    public Map<String, String> mapearEstaciones(){
+    public Map<String, String> mapearEstaciones(){ //Mapa que mostrará el nombre de la estación de la alerta según el código recibido
         Map<String, String>estaciones = new HashMap<String, String>();
         estaciones.put("004", "Pza. de España");
         estaciones.put("008", "Escuelas Aguirre");
@@ -113,5 +113,28 @@ public class EstacionesData {
         estaciones.put("060", "Tres Olivos");
 
         return estaciones;
+    }
+
+    public Map<Integer, String> mapearMagnitudes(){ //Método que traducirá el código de la magnitud a su significado
+        Map<Integer, String>magnitudes = new HashMap<Integer, String>();
+        magnitudes.put(1, "Dióxido de Azufre");
+        magnitudes.put(6, "Monóxido de Carbono");
+        magnitudes.put(7, "Monóxido de Nitrógeno");
+        magnitudes.put(8, "Dióxido de Nitrógeno");
+        magnitudes.put(9, "Partículas < 2.5 μm");
+        magnitudes.put(10, "Partículas < 10 μm");
+        magnitudes.put(12, "Óxidos de Nitrógeno");
+        magnitudes.put(14, "Ozono");
+        magnitudes.put(20, "Tolueno");
+        magnitudes.put(30, "Benceno");
+        magnitudes.put(35, "Etilbenceno");
+        magnitudes.put(37, "Metaxileno");
+        magnitudes.put(38, "Paraxileno");
+        magnitudes.put(39, "Ortoxileno");
+        magnitudes.put(42, "Hidrocarburos totales(hexano)");
+        magnitudes.put(43, "Metano");
+        magnitudes.put(44, "Hidrocarburosno metánicos (hexano)");
+
+        return magnitudes;
     }
 }

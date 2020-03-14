@@ -1,6 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/fab_margin">
+
+        <TextView
+            android:id="@+id/tvProvincia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="43dp"
+            android:text="Provincia"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvMunicipio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="43dp"
+            android:text="Municipio"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvEstacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estacion"
+            android:layout_marginTop="20dp"
+            android:textSize="17.5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvProvincia" />
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="43dp"
+            android:text="Fecha"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toStartOf="@+id/tvMuestreo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvEstacion" />
+
+        <TextView
+            android:id="@+id/tvMuestreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="43dp"
+            android:text="Muestreo"
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/tvFecha"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvEstacion" />
+
+        <TextView
+            android:id="@+id/tvMagnitud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnitud"
+            android:layout_marginTop="20dp"
+            android:textSize="17.5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvFecha" />
+
+        <TextView
+            android:id="@+id/tvNivel8am"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:text="Nivel 8 a.m."
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tvNivel16pm"
+            app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
+
+        <TextView
+            android:id="@+id/tvNivel16pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:text="Nivel 16 p.m."
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/tvNivel8am"
+            app:layout_constraintEnd_toStartOf="@+id/tvNivel24pm"
+            app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
+
+        <TextView
+            android:id="@+id/tvNivel24pm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:text="Nivel 24 p.m."
+            android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/tvNivel16pm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </LinearLayout>
