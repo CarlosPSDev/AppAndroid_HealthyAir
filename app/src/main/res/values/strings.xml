@@ -30,7 +30,7 @@
     <string name="tv_tip7">\tSi estás embarazada, procura llevar mascarilla \n\tlos días de mayor alerta</string>
     <string name="tv_tip8">\tRespeta las restricciones de velocidad y acceso \n\tde vehículos a zonas centrales</string>
     <string name="tv_tip9">\tCierra la llave de la calefacción en las \n\thabitaciones que no utilices</string>
-    <string name="tv_tip10">\tVentila la casa en la la hora en que la \n\ttemperatura es más favorable</string>
+    <string name="tv_tip10">\tVentila la casa en la hora en que la \n\ttemperatura es más favorable</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -62,7 +62,9 @@
     <string name="menu_marcadores">Estaciones</string>
     <string name="title_activity_maps">Map</string>
     <string name="menu_estaciones">Estaciones</string>
+    <string name="nav_datos_reales">Datos en tiempo real</string>
     <string name="menu_datos_reales">Datos en tiempo real</string>
+
 
     <string name="txt_datos_reales">Calidad del aire: Datos en tiempo real</string>
     <string name="tv_provincia">Provincia: %1$s</string>
@@ -82,4 +84,8 @@
     <string name="tv_nivel8amV">Nivel 8h a.m.: </string>
     <string name="tv_nivel16pmV">Nivel 16h p.m.: </string>
     <string name="tv_nivel24pmV">Nivel 24h p.m.: </string>
+
+    <string name="text_fragment_datos_reales">Información en tiempo real:</string>
+
+
 </resources>

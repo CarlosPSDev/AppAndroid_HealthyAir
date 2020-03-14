@@ -39,10 +39,11 @@ public class MainActivity extends AppCompatActivity {
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setItemIconTintList(null);
 
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home, R.id.nav_normativa, R.id.nav_slideshow,
-                R.id.nav_tools, R.id.nav_datos_real, R.id.nav_share, R.id.nav_send)
+                R.id.nav_tools, R.id.nav_datos_reales, R.id.nav_share, R.id.nav_send)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
