@@ -20,6 +20,10 @@
             android:id="@+id/nav_tools"
             android:icon="@drawable/normativa"
             android:title="@string/menu_marcadores" />
+        <item
+            android:id="@+id/nav_datos_real"
+            android:icon="@drawable/cloud"
+            android:title="@string/menu_datos_reales" />
     </group>
 
     <item android:title="Communicate">
