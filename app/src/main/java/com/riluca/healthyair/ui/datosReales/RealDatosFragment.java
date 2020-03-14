@@ -39,7 +39,7 @@ public class RealDatosFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {  // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_realdatos, container, false);        rv = v.findViewById(R.id.rvRealDatos);
-
+        rv = v.findViewById(R.id.rvRealDatos);
         consumirWs();
         return v;
     }
@@ -69,7 +69,7 @@ public class RealDatosFragment extends Fragment {
 
     private void cargarRV(ArrayList<DatoHorario> listaDatos) {
         LinearLayoutManager llm = new LinearLayoutManager(getContext());
-        RealDatosAdapter rda = new RealDatosAdapter(listaDatos);
+        RealDatosAdapter rda = new RealDatosAdapter(listaDatos, getContext());
         rv.setLayoutManager(llm);
         rv.setHasFixedSize(true);
         rv.setAdapter(rda);

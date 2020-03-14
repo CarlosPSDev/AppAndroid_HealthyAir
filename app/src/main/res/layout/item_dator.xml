@@ -11,42 +11,17 @@
         android:padding="@dimen/fab_margin">
 
         <TextView
-            android:id="@+id/tvLblProvincia"
+            android:id="@+id/tvProvincia"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="43dp"
-            android:text="@string/tv_provinciaV"
+            android:text="Provincia"
             android:textSize="17sp"
-            app:layout_constraintEnd_toStartOf="@id/tvProvincia"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tvProvincia"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="43dp"
-            android:text="P"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toStartOf="@+id/tvMunicipio"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@id/tvLblProvincia"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/tvLblMunicipio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="43dp"
-            android:text="@string/tv_municipioV"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toStartOf="@id/tvMunicipio"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/tvProvincia"
-            app:layout_constraintTop_toTopOf="parent" />
         <TextView
             android:id="@+id/tvMunicipio"
             android:layout_width="wrap_content"
@@ -54,171 +29,89 @@
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:layout_marginTop="43dp"
-            android:text="M"
+            android:text="Municipio"
             android:textSize="17sp"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toRightOf="@id/tvLblMunicipio"
-            app:layout_constraintStart_toEndOf="@id/tvLblMunicipio"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tvLblEstacion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/tv_estacionV"
-            android:textSize="17.5sp"
-            app:layout_constraintEnd_toStartOf="@id/tvEstacion"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvProvincia" />
         <TextView
             android:id="@+id/tvEstacion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E"
-            android:layout_marginTop="10dp"
+            android:text="Estacion"
+            android:layout_marginTop="20dp"
             android:textSize="17.5sp"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/tvLblEstacion"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvProvincia" />
 
-        <TextView
-            android:id="@+id/tvLblFecha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginTop="12dp"
-            android:text="@string/tv_fechaV"
-            android:textSize="17sp"
-            app:layout_constraintEnd_toStartOf="@+id/tvFecha"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvEstacion" />
         <TextView
             android:id="@+id/tvFecha"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="F"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="43dp"
+            android:text="Fecha"
             android:textSize="17sp"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@id/tvLblFecha"
-            app:layout_constraintEnd_toStartOf="@+id/tvLblMuestreo"
-            app:layout_constraintTop_toBottomOf="@id/tvEstacion" />
-
-        <TextView
-            android:id="@+id/tvLblMuestreo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:text="@string/tv_muestreoV"
-            android:textSize="17sp"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@id/tvFecha"
-            app:layout_constraintEnd_toStartOf="@id/tvMuestreo"
+            app:layout_constraintEnd_toStartOf="@+id/tvMuestreo"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvEstacion" />
 
         <TextView
             android:id="@+id/tvMuestreo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="M"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="43dp"
+            android:text="Muestreo"
             android:textSize="17sp"
+            app:layout_constraintStart_toEndOf="@id/tvFecha"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@id/tvMuestreo"
             app:layout_constraintTop_toBottomOf="@id/tvEstacion" />
 
-        <TextView
-            android:id="@+id/tvLblMagnitud"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/tv_magnitudV"
-            android:textSize="17.5sp"
-            app:layout_constraintEnd_toStartOf="@id/tvMagnitud"
-            app:layout_constraintHorizontal_bias="0.75"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvFecha" />
         <TextView
             android:id="@+id/tvMagnitud"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Ma"
-            android:layout_marginTop="10dp"
+            android:text="Magnitud"
+            android:layout_marginTop="20dp"
             android:textSize="17.5sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/tvLblMagnitud"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvFecha" />
 
-        <TextView
-            android:id="@+id/tvLblNivel8am"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/tv_nivel8amV"
-            android:textSize="17sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/tvNivel8am"
-            app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
         <TextView
             android:id="@+id/tvNivel8am"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="N8"
+            android:layout_marginTop="43dp"
+            android:text="Nivel 8 a.m."
             android:textSize="17sp"
-            app:layout_constraintStart_toEndOf="@id/tvLblNivel8am"
-            app:layout_constraintEnd_toStartOf="@+id/tvLblNivel16pm"
-            app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
-
-        <TextView
-            android:id="@+id/tvLblNivel16pm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/tv_nivel16pmV"
-            android:textSize="17sp"
-            app:layout_constraintStart_toEndOf="@id/tvNivel8am"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/tvNivel16pm"
             app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
+
         <TextView
             android:id="@+id/tvNivel16pm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="N16"
+            android:layout_marginTop="43dp"
+            android:text="Nivel 16 p.m."
             android:textSize="17sp"
-            app:layout_constraintStart_toEndOf="@id/tvLblNivel16pm"
+            app:layout_constraintStart_toEndOf="@id/tvNivel8am"
             app:layout_constraintEnd_toStartOf="@+id/tvNivel24pm"
             app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
 
         <TextView
-            android:id="@+id/tvLblNivel24pm"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/tv_nivel24pmV"
-            android:textSize="17sp"
-            app:layout_constraintStart_toEndOf="@id/tvNivel16pm"
-            app:layout_constraintEnd_toStartOf="@id/tvNivel24pm"
-            app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
-        <TextView
             android:id="@+id/tvNivel24pm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="N24"
+            android:layout_marginTop="43dp"
+            android:text="Nivel 24 p.m."
             android:textSize="17sp"
-            app:layout_constraintStart_toEndOf="@id/tvLblNivel24pm"
+            app:layout_constraintStart_toEndOf="@id/tvNivel16pm"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvMagnitud" />
     </androidx.constraintlayout.widget.ConstraintLayout>
