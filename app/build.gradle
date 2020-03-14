@@ -35,6 +35,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.0.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'de.hdodenhof:circleimageview:3.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0' //Propia de retrofit
+    implementation 'com.squareup.retrofit2:converter-simplexml:2.5.0' //Conversor xml, si peta poner 2.7.1
+    implementation 'com.squareup.retrofit2:converter-scalars:2.5.0'  //Para convertir las cadenas de caracteres
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
