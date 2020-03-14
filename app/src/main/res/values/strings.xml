@@ -63,12 +63,23 @@
     <string name="title_activity_maps">Map</string>
     <string name="menu_estaciones">Estaciones</string>
     <string name="menu_datos_reales">Datos en tiempo real</string>
-    <string name="text_datos_reales">Calidad del aire: Datos en tiempo real</string>
 
+    <string name="txt_datos_reales">Calidad del aire: Datos en tiempo real</string>
     <string name="tv_provincia">Provincia: %1$s</string>
     <string name="tv_municipio">Municipio: %s</string>
     <string name="tv_estacion">Estación: %1$s %2$s</string>
     <string name="tv_fecha">Fecha: %1$s/%2$s/%3$s</string>
     <string name="tv_muestreo">Muestreo: %s</string>
     <string name="tv_magnitud">Estación: %1$s %2$s</string>
+
+
+    <string name="tv_provinciaV">Provincia: </string>
+    <string name="tv_municipioV">Municipio: </string>
+    <string name="tv_estacionV">Estación: </string>
+    <string name="tv_fechaV">Fecha: </string>
+    <string name="tv_muestreoV">Muestreo: </string>
+    <string name="tv_magnitudV">Magnitud: </string>
+    <string name="tv_nivel8amV">Nivel 8h a.m.: </string>
+    <string name="tv_nivel16pmV">Nivel 16h p.m.: </string>
+    <string name="tv_nivel24pmV">Nivel 24h p.m.: </string>
 </resources>
