@@ -33,9 +33,9 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
     GoogleMap mGoogleMap;
     MapView mMapView;
     View mView;
-    ArrayList<Estacion> resultadoConsulta = new ArrayList<>();
+    //ArrayList<Estacion> resultadoConsulta = new ArrayList<>();
 
-    private Object LatLng;
+    private Object LatLng; //<-- Esto se usa?
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -102,15 +102,15 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 estacion =  document.toObject(Estacion.class);
                                 Log.d("resul", "result Data: " + estacion.getNombre()); //Se imprimen perfectamente
+
                           //Si quieres no hace falta ni hacer ArrayList, esta estacion se puede usar ya con los getter
                                 LatLng loc = new LatLng(Double.parseDouble(estacion.getLatitud()),
                                         Double.parseDouble(estacion.getLongitud())); //Aqui guarda directamente el valor de la estacion
-                                mGoogleMap = googleMap;//<--Esto hay que volver a hacerlo en cada iteracion? Si ya esta arriba
+                                mGoogleMap = googleMap;//<--Esto hay que volver a hacerlo en cada iteracion? Si ya esta arriba y no hace falta quitamos el Final
                                 mGoogleMap.addMarker(new MarkerOptions().position(loc)
                                         .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)));
                                 mGoogleMap.animateCamera(CameraUpdateFactory .newLatLngZoom (loc,14f ));
                                 mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
-
 
                                 //listaEstaciones.add(estacion);
                                 //Log.d("resul", "result Data: " + estacion.getNombre());
