@@ -120,7 +120,7 @@ public class DatoHorario {
 
     public DatoHorario() {}
 
-    public DatoHorario(String provincia, String municipio, String estacion, String magnitud, String puntoMuestreo, String anio, String mes, String dia, String h01, String v01, String h02, String v02, String h03, String v03, String h04, String v04, String h05, String v05, String h06, String v06, String h07, String v07, String h08, String v08, String h09, String v09, String h10, String v10, String h11, String v11, String h12, String v12, String h13, String v13, String h14, String v14, String h15, String v15, String h16, String v16, String h17, String v17, String h18, String v18, String h19, String v19, String h20, String v20, String h21, String v21, String h22, String v22, String h23, String v23, String h24, String v24) {
+    /*public DatoHorario(String provincia, String municipio, String estacion, String magnitud, String puntoMuestreo, String anio, String mes, String dia, String h01, String v01, String h02, String v02, String h03, String v03, String h04, String v04, String h05, String v05, String h06, String v06, String h07, String v07, String h08, String v08, String h09, String v09, String h10, String v10, String h11, String v11, String h12, String v12, String h13, String v13, String h14, String v14, String h15, String v15, String h16, String v16, String h17, String v17, String h18, String v18, String h19, String v19, String h20, String v20, String h21, String v21, String h22, String v22, String h23, String v23, String h24, String v24) {
         this.provincia = provincia;
         this.municipio = municipio;
         this.estacion = estacion;
@@ -177,7 +177,7 @@ public class DatoHorario {
         this.v23 = v23;
         this.h24 = h24;
         this.v24 = v24;
-    }
+    }*/
 
     public String getProvincia() {
         return provincia;
@@ -211,195 +211,17 @@ public class DatoHorario {
         return dia;
     }
 
-    public String getH01() {
-        return h01;
-    }
-
-    public String getV01() {
-        return v01;
-    }
-
-    public String getH02() {
-        return h02;
-    }
-
-    public String getV02() {
-        return v02;
-    }
-
-    public String getH03() {
-        return h03;
-    }
-
-    public String getV03() {
-        return v03;
-    }
-
-    public String getH04() {
-        return h04;
-    }
-
-    public String getV04() {
-        return v04;
-    }
-
-    public String getH05() {
-        return h05;
-    }
-
-    public String getV05() {
-        return v05;
-    }
-
-    public String getH06() {
-        return h06;
-    }
-
-    public String getV06() {
-        return v06;
-    }
-
-    public String getH07() {
-        return h07;
-    }
-
-    public String getV07() {
-        return v07;
-    }
-
     public String getH08() {
         return h08;
-    }
-
-    public String getV08() {
-        return v08;
-    }
-
-    public String getH09() {
-        return h09;
-    }
-
-    public String getV09() {
-        return v09;
-    }
-
-    public String getH10() {
-        return h10;
-    }
-
-    public String getV10() {
-        return v10;
-    }
-
-    public String getH11() {
-        return h11;
-    }
-
-    public String getV11() {
-        return v11;
-    }
-
-    public String getH12() {
-        return h12;
-    }
-
-    public String getV12() {
-        return v12;
-    }
-
-    public String getH13() {
-        return h13;
-    }
-
-    public String getV13() {
-        return v13;
-    }
-
-    public String getH14() {
-        return h14;
-    }
-
-    public String getV14() {
-        return v14;
-    }
-
-    public String getH15() {
-        return h15;
-    }
-
-    public String getV15() {
-        return v15;
     }
 
     public String getH16() {
         return h16;
     }
 
-    public String getV16() {
-        return v16;
-    }
-
-    public String getH17() {
-        return h17;
-    }
-
-    public String getV17() {
-        return v17;
-    }
-
-    public String getH18() {
-        return h18;
-    }
-
-    public String getV18() {
-        return v18;
-    }
-
-    public String getH19() {
-        return h19;
-    }
-
-    public String getV19() {
-        return v19;
-    }
-
-    public String getH20() {
-        return h20;
-    }
-
-    public String getV20() {
-        return v20;
-    }
-
-    public String getH21() {
-        return h21;
-    }
-
-    public String getV21() {
-        return v21;
-    }
-
-    public String getH22() {
-        return h22;
-    }
-
-    public String getV22() {
-        return v22;
-    }
-
-    public String getH23() {
-        return h23;
-    }
-
-    public String getV23() {
-        return v23;
-    }
-
     public String getH24() {
         return h24;
     }
 
-    public String getV24() {
-        return v24;
-    }
+
 }
