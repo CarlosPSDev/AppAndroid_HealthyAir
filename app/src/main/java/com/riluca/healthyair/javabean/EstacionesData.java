@@ -131,9 +131,9 @@ public class EstacionesData {
         magnitudes.put(37, "Metaxileno");
         magnitudes.put(38, "Paraxileno");
         magnitudes.put(39, "Ortoxileno");
-        magnitudes.put(42, "Hidrocarburos totales(hexano)");
+        magnitudes.put(42, "Hidrocarburos totales (hexano)");
         magnitudes.put(43, "Metano");
-        magnitudes.put(44, "Hidrocarburosno metánicos (hexano)");
+        magnitudes.put(44, "Hidrocarburos no metánicos (hexano)");
 
         return magnitudes;
     }
