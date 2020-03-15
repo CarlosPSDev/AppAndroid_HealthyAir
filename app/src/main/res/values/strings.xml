@@ -65,7 +65,6 @@
     <string name="nav_datos_reales">Datos en tiempo real</string>
     <string name="menu_datos_reales">Datos en tiempo real</string>
 
-
     <string name="tv_provincia">Provincia: %s</string>
     <string name="tv_municipio">Municipio: %s</string>
     <string name="tv_estacion">Estación: %s</string>
@@ -75,16 +74,6 @@
     <string name="tv_nivel8am">Nivel 8h a.m.: %s</string>
     <string name="tv_nivel16pm">Nivel 16h p.m.: %s</string>
     <string name="tv_nivel24pm">Nivel 24h p.m.: %s</string>
-
-    <!--<string name="tv_provinciaV">Provincia: </string>
-    <string name="tv_municipioV">Municipio: </string>
-    <string name="tv_estacionV">Estación: </string>
-    <string name="tv_fechaV">Fecha: </string>
-    <string name="tv_muestreoV">Muestreo: </string>
-    <string name="tv_magnitudV">Magnitud: </string>
-    <string name="tv_nivel8amV">Nivel 8h a.m.: </string>
-    <string name="tv_nivel16pmV">Nivel 16h p.m.: </string>
-    <string name="tv_nivel24pmV">Nivel 24h p.m.: </string>-->
 
     <string name="text_fragment_datos_reales">Información en tiempo real:</string>
 

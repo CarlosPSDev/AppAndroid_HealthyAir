@@ -27,7 +27,6 @@ public class TipsFrag3 extends Fragment {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -46,15 +45,14 @@ public class TipsFrag3 extends Fragment {
         btnOmitir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
+                interfaz.pasarAlMap(); //Para pasar al NavigationDrawer
             }
         });
 
         btnSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(), EstacionesActivity.class);
-                startActivity(i); //Provisionalmente llama al Estaciones Activity pero cambiarlo pra q salga el Navigation drawer
+                interfaz.pasarAlMap(); //Para pasar al NavigationDrawer
             }
         });
 
