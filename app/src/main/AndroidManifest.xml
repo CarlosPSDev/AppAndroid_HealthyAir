@@ -38,7 +38,6 @@
             android:name=".ui.Estaciones.MapsActivity"
             android:label="@string/title_activity_maps"></activity>
         <activity android:name=".ui.quienes_somos.QuienesActivity" />
-        <activity android:name=".EstacionesActivity" />
         <activity
             android:name=".NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"

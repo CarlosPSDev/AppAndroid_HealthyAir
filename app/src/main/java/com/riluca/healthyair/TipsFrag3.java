@@ -1,7 +1,6 @@
 package com.riluca.healthyair;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -27,6 +26,7 @@ public class TipsFrag3 extends Fragment {
         // Required empty public constructor
     }
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -45,14 +45,7 @@ public class TipsFrag3 extends Fragment {
         btnOmitir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                interfaz.pasarAlMap(); //Para pasar al NavigationDrawer
-            }
-        });
-
-        btnSiguiente.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                interfaz.pasarAlMap(); //Para pasar al NavigationDrawer
+                interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
             }
         });
 

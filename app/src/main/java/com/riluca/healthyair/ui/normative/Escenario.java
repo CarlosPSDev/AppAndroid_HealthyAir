@@ -5,15 +5,18 @@ import android.os.Parcelable;
 
 public class Escenario implements Parcelable {
 
+    private int ivPhoto;
     private String textoSuperior;
     private String textoInferior;
 
-    public Escenario(String textoSuperior, String textoInferior) {
+    public Escenario(int ivPhoto, String textoSuperior, String textoInferior) {
+        this.ivPhoto = ivPhoto;
         this.textoSuperior = textoSuperior;
         this.textoInferior = textoInferior;
     }
 
     protected Escenario(Parcel in) {
+        ivPhoto = in.readInt();
         textoSuperior = in.readString();
         textoInferior = in.readString();
     }
@@ -38,6 +41,10 @@ public class Escenario implements Parcelable {
         return textoInferior;
     }
 
+    public int getIvPhoto() {
+        return ivPhoto;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -45,6 +52,7 @@ public class Escenario implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
+        dest.writeInt(ivPhoto);
         dest.writeString(textoSuperior);
         dest.writeString(textoInferior);
     }
