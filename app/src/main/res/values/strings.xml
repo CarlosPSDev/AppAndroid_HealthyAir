@@ -71,7 +71,7 @@
     <string name="tv_fecha">Fecha: %1$s/%2$s/%3$s</string>
     <string name="tv_muestreo">Punto de Muestreo: %s</string>
     <string name="tv_magnitud">Código Magnitud: %s</string>
-    <string name="tv_nivel8am">Nivel 8h a.m.: %s</string>
+    <string name="tv_nivel8am">Nivel 8h: %s</string>
     <string name="tv_nivel16pm">Nivel 16h: %s</string>
     <string name="tv_nivel24pm">Nivel 24h: %s</string>
 
