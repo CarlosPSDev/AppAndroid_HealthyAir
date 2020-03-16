@@ -92,6 +92,8 @@
                 android:id="@+id/btnOmitir2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingTop="16dp"
+                android:paddingBottom="12dp"
                 android:layout_weight="1"
                 android:textAllCaps="false"
                 android:text="@string/btn_omitir" />
