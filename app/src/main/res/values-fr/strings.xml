@@ -3,11 +3,11 @@
     <string name="tvLogin">Essai de Branch Login</string>
     <string name="nombreApp">Healthy Air</string>
     <string name="msg_inicial">Enjoy Madrid</string>
-    <string name="username">\tUsername</string>
-    <string name="password">\tPassword</string>
+    <string name="username">\tUtilisateur</string>
+    <string name="password">\tMot de passe</string>
     <string name="log_in">LOG IN</string>
-    <string name="register">REGISTER</string>
-    <string name="tv_olvidar">Password oubliée?</string>
+    <string name="register">ENREGISTREMENT</string>
+    <string name="tv_olvidar">Mot de passe oubliée?</string>
     <string name="tv_pulse">- CLIQUE ICI -</string>
 
     <string name="msg_registrado">User Registered</string>
