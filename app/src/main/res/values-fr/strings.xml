@@ -7,20 +7,20 @@
     <string name="password">\tMot de passe</string>
     <string name="log_in">LOG IN</string>
     <string name="register">ENREGISTREMENT</string>
-    <string name="tv_olvidar">Mot de passe oubliée?</string>
+    <string name="tv_olvidar">Mot de passe oublié?</string>
     <string name="tv_pulse">- CLIQUE ICI -</string>
 
-    <string name="msg_registrado">User Registered</string>
-    <string name="msg_no_registrado">utilisateur non enregistré</string>
-    <string name="msg_no_accede">Error de acceso.</string>
-    <string name="no_datos">Debe introducir el email y la password.</string>
+    <string name="msg_registrado">Utilisater Enregistré</string>
+    <string name="msg_no_registrado">Utilisateur non enregistré</string>
+    <string name="msg_no_accede">erreur d\'accès</string>
+    <string name="no_datos">Tu dois introduire ton email et mot de passe</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="btn_omitir">omitir</string>
+    <string name="btn_omitir">sauter</string>
     <string name="btn_atras"><![CDATA[<]]></string>
     <string name="btn_avanzar"><![CDATA[>]]></string>
-    <string name="tv_tips_contam">Algunos tips sobre contaminación</string>
+    <string name="tv_tips_contam">quelques conseils sur la pollution</string>
     <string name="tv_tip1">\tEvita salir a la calle los días de mayor \n\tcontaminación</string>
     <string name="tv_tip2">\tLos días de más contaminación puedes usar \n\tmascarilla si tienes problemas respiratorios</string>
     <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
@@ -32,22 +32,22 @@
     <string name="tv_tip9">\tCierra la llave de la calefacción en las \n\thabitaciones que no utilices</string>
     <string name="tv_tip10">\tVentila la casa en la hora en que la \n\ttemperatura es más favorable</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Ouvrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Réglages</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Escenarios/Normativa</string>
-    <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
-    <string name="nav_header_nameUser">User Name</string>
+    <string name="menu_gallery">Scénarios/Réglementations</string>
+    <string name="menu_tools">Outils</string>
+    <string name="menu_share">Diffuser</string>
+    <string name="menu_send">Envoyer</string>
+    <string name="nav_header_nameUser">Utilisateur</string>
     <string name="nav_header_mailUser">xxxxx@xxx.com</string>
-    <string name="menu_normative">Normativa</string>
-    <string name="menu_contaminantes">Componentes del aire</string>
-    <string name="btn_normativa_saber_mas">Saber más</string>
-    <string name="action_acerca_de">Acerca de HealthyAir</string>
+    <string name="menu_normative">Réglementation</string>
+    <string name="menu_contaminantes">Composants de l\'air</string>
+    <string name="btn_normativa_saber_mas">En savoir plus</string>
+    <string name="action_acerca_de">À propos de HealthyAir</string>
 
 
     <string name="nombre_desarrollador_1">Carlos Pardos</string>
@@ -59,19 +59,19 @@
     <string name="nombre_desarrollador_3">Ricardo Gutierrez</string>
     <string name="descripcion_desarrollador_3">Software developer, Technical assistant and Junior Designer </string>
     <string name="texto_desc_app">HealthyAir\n Universidad Europea de Madrid\nMadrid 2020</string>
-    <string name="menu_marcadores">Estaciones</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="menu_estaciones">Estaciones</string>
-    <string name="nav_datos_reales">Datos en tiempo real</string>
-    <string name="menu_datos_reales">Datos en tiempo real</string>
-    <string name="text_fragment_datos_reales">Información en tiempo real:</string>
-    <string name="tv_provincia">Provincia: %s</string>
-    <string name="tv_municipio">Municipio: %s</string>
-    <string name="tv_estacion">Estación: %s</string>
-    <string name="tv_fecha">Fecha: %1$s/%2$s/%3$s</string>
-    <string name="tv_muestreo">Punto de Muestreo: %s</string>
-    <string name="tv_magnitud">Código Magnitud: %s</string>
-    <string name="tv_nivel8am">Nivel 8h: %s</string>
-    <string name="tv_nivel16pm">Nivel 16h: %s</string>
-    <string name="tv_nivel24pm">Nivel 24h: %s</string>
+    <string name="menu_marcadores">Stations</string>
+    <string name="title_activity_maps">Plan</string>
+    <string name="menu_estaciones">Stations</string>
+    <string name="nav_datos_reales">Données en temps réel</string>
+    <string name="menu_datos_reales">Données en temps réel</string>
+    <string name="text_fragment_datos_reales">Information en temps réel:</string>
+    <string name="tv_provincia">Province: %s</string>
+    <string name="tv_municipio">Municipalité: %s</string>
+    <string name="tv_estacion">Station: %s</string>
+    <string name="tv_fecha">Date: %1$s/%2$s/%3$s</string>
+    <string name="tv_muestreo">Point d\'échantillonnage: %s</string>
+    <string name="tv_magnitud">Code de Magnitude: %s</string>
+    <string name="tv_nivel8am">Donnée 8h: %s</string>
+    <string name="tv_nivel16pm">Donnée 16h: %s</string>
+    <string name="tv_nivel24pm">Donnée 24h: %s</string>
 </resources>
