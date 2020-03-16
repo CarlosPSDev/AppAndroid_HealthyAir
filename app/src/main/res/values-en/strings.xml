@@ -10,27 +10,27 @@
     <string name="tv_olvidar">Forgot your Password?</string>
     <string name="tv_pulse">- PRESS HERE -</string>
 
-    <string name="msg_registrado">User Registered</string>
+    <string name="msg_registrado">Register OK</string>
     <string name="msg_no_registrado">User has\'n been registered</string>
     <string name="msg_no_accede">Access error</string>
-    <string name="no_datos">You must enter your email and password.</string>
+    <string name="no_datos">You must enter your email and password</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="btn_omitir">omitir</string>
+    <string name="btn_omitir">skip</string>
     <string name="btn_atras"><![CDATA[<]]></string>
     <string name="btn_avanzar"><![CDATA[>]]></string>
-    <string name="tv_tips_contam">Algunos tips sobre contaminación</string>
-    <string name="tv_tip1">\tEvita salir a la calle los días de mayor \n\tcontaminación</string>
-    <string name="tv_tip2">\tLos días de más contaminación puedes usar \n\tmascarilla si tienes problemas respiratorios</string>
+    <string name="tv_tips_contam">Some tips about pollution</string>
+    <string name="tv_tip1">\tAvoid going outside on the days of greatest \n\tpollution</string>
+    <string name="tv_tip2">\tOn days of more contamination you can wear a \n\tmask if you have breathing problems</string>
     <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
-    <string name="tv_tip4">\tUtiliza bicicleta o el transporte público en la \n\tmedida de lo posible</string>
-    <string name="tv_tip5">\tPor cada grado de temperatura aumentan \n\tlas emisiones de gases un 7%</string>
-    <string name="tv_tip6">\tLos niños y ancianos son especialmente \n\tvulnerables a la contaminación</string>
-    <string name="tv_tip7">\tSi estás embarazada, procura llevar mascarilla \n\tlos días de mayor alerta</string>
-    <string name="tv_tip8">\tRespeta las restricciones de velocidad y acceso \n\tde vehículos a zonas centrales</string>
-    <string name="tv_tip9">\tCierra la llave de la calefacción en las \n\thabitaciones que no utilices</string>
-    <string name="tv_tip10">\tVentila la casa en la hora en que la \n\ttemperatura es más favorable</string>
+    <string name="tv_tip4">\tUse a bicycle or public transport \n\twhenever possible</string>
+    <string name="tv_tip5">\tFor each degree you raise the temperature \n\tgas emissions increase by 7%</string>
+    <string name="tv_tip6">\tChildren and the elderly are especially \n\tvulnerable to contamination</string>
+    <string name="tv_tip7">\tIf you are pregnant, try to wear a mask \n\ton the most alert days</string>
+    <string name="tv_tip8">\tRespect speed restrictions and vehicle access \n\tto central areas</string>
+    <string name="tv_tip9">\tTurn off the heating key in rooms \n\tthat you don't use</string>
+    <string name="tv_tip10">\tVentilate the house at the time when \n\tthe temperature is the most favorable</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -38,20 +38,20 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Escenarios/Normativa</string>
+    <string name="menu_gallery">Scenarios/Regulations</string>
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="nav_header_nameUser">User Name</string>
     <string name="nav_header_mailUser">xxxxx@xxx.com</string>
-    <string name="menu_normative">Normativa</string>
-    <string name="menu_contaminantes">Componentes del aire</string>
-    <string name="btn_normativa_saber_mas">Saber más</string>
-    <string name="action_acerca_de">Acerca de HealthyAir</string>
+    <string name="menu_normative">Regulations</string>
+    <string name="menu_contaminantes">Air components</string>
+    <string name="btn_normativa_saber_mas">More information</string>
+    <string name="action_acerca_de">About HealthyAir</string>
 
 
     <string name="nombre_desarrollador_1">Carlos Pardos</string>
-    <string name="descripcion_desarrollador_1">Software developer, Cloud Master, Tester and Apprentice of the team</string>
+    <string name="descripcion_desarrollador_1">Software developer, Cloud Master, and Tester of the team</string>
 
     <string name="nombre_desarrollador_2">Luis Fernández</string>
     <string name="descripcion_desarrollador_2">CEO, Software developer, Analyst and Master Designer</string>
@@ -59,19 +59,19 @@
     <string name="nombre_desarrollador_3">Ricardo Gutierrez</string>
     <string name="descripcion_desarrollador_3">Software developer, Technical assistant and Junior Designer </string>
     <string name="texto_desc_app">HealthyAir\n Universidad Europea de Madrid\nMadrid 2020</string>
-    <string name="menu_marcadores">Estaciones</string>
+    <string name="menu_marcadores">Stations</string>
     <string name="title_activity_maps">Map</string>
-    <string name="menu_estaciones">Estaciones</string>
-    <string name="nav_datos_reales">Datos en tiempo real</string>
-    <string name="menu_datos_reales">Datos en tiempo real</string>
-    <string name="text_fragment_datos_reales">Información en tiempo real:</string>
-    <string name="tv_provincia">Provincia: %s</string>
-    <string name="tv_municipio">Municipio: %s</string>
-    <string name="tv_estacion">Estación: %s</string>
-    <string name="tv_fecha">Fecha: %1$s/%2$s/%3$s</string>
-    <string name="tv_muestreo">Punto de Muestreo: %s</string>
-    <string name="tv_magnitud">Código Magnitud: %s</string>
-    <string name="tv_nivel8am">Nivel 8h: %s</string>
-    <string name="tv_nivel16pm">Nivel 16h: %s</string>
-    <string name="tv_nivel24pm">Nivel 24h: %s</string>
+    <string name="menu_estaciones">Stations</string>
+    <string name="nav_datos_reales">Real time data</string>
+    <string name="menu_datos_reales">Real time data</string>
+    <string name="text_fragment_datos_reales">Real time data information:</string>
+    <string name="tv_provincia">Province: %s</string>
+    <string name="tv_municipio">Township: %s</string>
+    <string name="tv_estacion">Station: %s</string>
+    <string name="tv_fecha">Date: %2$s/%1$s/%3$s</string>
+    <string name="tv_muestreo">Sampling Point: %s</string>
+    <string name="tv_magnitud">Magnitude Code: %s</string>
+    <string name="tv_nivel8am">Value 8h: %s</string>
+    <string name="tv_nivel16pm">Value 16h: %s</string>
+    <string name="tv_nivel24pm">Value 24h: %s</string>
 </resources>
