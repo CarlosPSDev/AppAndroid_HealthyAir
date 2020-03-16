@@ -4,9 +4,9 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="150dp"
-    app:cardCornerRadius="4dp"
-    app:cardElevation="8dp"
-    app:cardBackgroundColor="@color/cardview_shadow_end_color"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/fondo_card_views"
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
@@ -28,8 +28,7 @@
             android:id="@+id/tvTextoSuperior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
-            android:textColor="@android:color/white"
+            android:fontFamily="@font/opensans_bold"
             android:text="Texto superior"
             android:textSize="28dp"
             />
@@ -38,10 +37,10 @@
             android:id="@+id/tvTextoInferior"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_regular"
             android:text="Texto inferior"
-            android:textSize="18dp"
-            android:textColor="@android:color/white"
-            android:layout_below="@id/tvTextoSuperior"/>
+            android:textSize="22dp"
+            android:layout_below="@id/ivPhoto"/>
 
     </RelativeLayout>
 

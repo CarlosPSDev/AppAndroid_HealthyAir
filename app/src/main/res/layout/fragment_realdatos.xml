@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/fondo_norm_cont"
     android:padding="@dimen/fab_margin"
     android:background="@color/et1"
     tools:context=".ui.datosReales.RealDatosFragment">

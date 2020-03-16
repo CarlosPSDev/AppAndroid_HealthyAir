@@ -71,15 +71,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
         mGoogleMap = googleMap;
         mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
-        /*LatLng bar1 = new LatLng(32.533890,-117.037507);
-        mGoogleMap.addMarker(new MarkerOptions().position(bar1).title("Mamut (Calle 3ra)").snippet("Aquí se sirve la cerveza"));
-        CameraPosition cameraP = CameraPosition.builder().target(bar1).zoom(16).bearing(0).tilt(45).build();
-        //mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(uem, 16));//Al añadir el entero acercas la vision
-        mGoogleMap.moveCamera(CameraUpdateFactory.newCameraPosition(cameraP));*/
-
-
         // Verificar permisos de localización.
-
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)
                 != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(getActivity(),
                 Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -104,7 +96,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
             LatLng loc = new LatLng(32.514054,-117.031813);
             mGoogleMap.addMarker(new MarkerOptions().position(loc).title("Tu posición"));
             mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 14));
-            mGoogleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
             mGoogleMap.getUiSettings().setZoomControlsEnabled(true);
 
             mGoogleMap.setOnMapClickListener(new GoogleMap.OnMapClickListener() {

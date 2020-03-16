@@ -4,5 +4,5 @@
     <item
         android:id="@+id/action_quienes_somos"
         android:title="@string/action_acerca_de"
-        app:showAsAction="never" />
+        app:showAsAction="never"/>
 </menu>

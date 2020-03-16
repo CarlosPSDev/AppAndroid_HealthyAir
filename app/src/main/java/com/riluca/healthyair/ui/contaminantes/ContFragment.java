@@ -23,10 +23,11 @@ public class ContFragment extends Fragment {
     ArrayList<ItemLista> listaDatos;
     ContAdaptador adapter;
 
-    public View onCreateView(@NonNull LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View vista = inflater.inflate(R.layout.fragment_contaminantes, container, false);
 
         rv = vista.findViewById(R.id.rvContaminantes);
+
         listaDatos = new ArrayList<>();
 
         llm = new LinearLayoutManager(getContext());

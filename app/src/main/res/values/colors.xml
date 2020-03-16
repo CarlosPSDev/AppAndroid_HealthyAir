@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorFragTip2">#E0F2F1</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#4B6575</color>
+    <color name="colorPrimaryDark">#4B6575</color>
+    <color name="colorAccent">#333c46</color>
+    <color name="colorSecondary">#A47E68</color>
+    <color name="colorSecondaryDark">#7f6758</color>
+    <color name="fondo_norm_cont">#D6DBDF</color>
+    <color name="fondo_card_views">#F2F3F4</color>
     <color name="colorSplash">#F5F5DC</color>
+    <color name="colorFragTip2">#E0F2F1</color>
     <color name="blue">#000080</color>
     <color name="blueName">#084B8A</color>
     <color name="colorFragTip">#f4f4f4</color>
