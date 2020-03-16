@@ -43,8 +43,7 @@ public class TipsFragment extends Fragment {
         btnOmitir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Hacer un intent al activity q va despues del login
-                interfaz.pasarAlMap(); //Si omiten los tipos se pasa a la aplicacion propiamente dicha
+                interfaz.pasarAlMap(); //Si omiten los tips pasar al NavigationDrawer
             }
         });
 

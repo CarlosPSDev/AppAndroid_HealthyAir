@@ -72,17 +72,13 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
                     } else {
                         Toast.makeText(LoginActivity.this, getString(R.string.msg_no_registrado), Toast.LENGTH_LONG).show();
                     }
-
                 }
 
             });
-
         }
-
     }
 
     public void acceder(View view) {
-
         String msg = validarDatos();
 
         if (msg != null){
@@ -104,13 +100,10 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
                     } else {
                         Toast.makeText(LoginActivity.this, getString(R.string.msg_no_accede), Toast.LENGTH_SHORT).show();
                     }
-
                 }
 
             });
-
         }
-
     }
 
     private String validarDatos(){
@@ -122,9 +115,7 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
         if (email.isEmpty() || password.isEmpty()){
             msg = getString(R.string.no_datos);
         }
-
         return msg;
-
     }
 
     private void lanzarFragment(Fragment fragmenLanzar) {
@@ -152,7 +143,7 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
 
     @Override
     public void pasarAlMap() {
-        //Al pinchar Omitir o terminar los tips pasamos difectamente al MainActivity
+        //Al pinchar Omitir o terminar los tips pasamos al Navigation Drawer
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }

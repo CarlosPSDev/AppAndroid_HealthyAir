@@ -39,13 +39,20 @@ public class TipsFrag3 extends Fragment {
         btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                interfaz.llamarFrag(new TipsFrag2()); //Cambiarlo, se llama al fragmento anterior (1)
+                interfaz.llamarFrag(new TipsFrag2()); //Se llama al fragmento anterior (1)
             }
         });
         btnOmitir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                interfaz.pasarAlMap(); //Para llamar pasar al mainActivity
+                interfaz.pasarAlMap(); //Para llamar ya al NavigationDrawer
+            }
+        });
+
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                interfaz.pasarAlMap(); //Para llamar ya al NavigationDrawer
             }
         });
 

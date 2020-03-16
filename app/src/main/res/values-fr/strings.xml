@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">HealthyAir</string>
+    <string name="tvLogin">Essai de Branch Login</string>
+    <string name="nombreApp">Healthy Air</string>
+    <string name="msg_inicial">Enjoy Madrid</string>
+    <string name="username">\tUtilisateur</string>
+    <string name="password">\tMot de passe</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">ENREGISTREMENT</string>
+    <string name="tv_olvidar">Mot de passe oublié?</string>
+    <string name="tv_pulse">- CLIQUE ICI -</string>
+
+    <string name="msg_registrado">Utilisater Enregistré</string>
+    <string name="msg_no_registrado">Utilisateur non enregistré</string>
+    <string name="msg_no_accede">erreur d\'accès</string>
+    <string name="no_datos">Tu dois introduire ton email et mot de passe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_omitir">sauter</string>
+    <string name="btn_atras"><![CDATA[<]]></string>
+    <string name="btn_avanzar"><![CDATA[>]]></string>
+    <string name="tv_tips_contam">quelques conseils sur la pollution</string>
+    <string name="tv_tip1">\tEvita salir a la calle los días de mayor \n\tcontaminación</string>
+    <string name="tv_tip2">\tLos días de más contaminación puedes usar \n\tmascarilla si tienes problemas respiratorios</string>
+    <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
+    <string name="tv_tip4">\tUtiliza bicicleta o el transporte público en la \n\tmedida de lo posible</string>
+    <string name="tv_tip5">\tPor cada grado de temperatura aumentan \n\tlas emisiones de gases un 7%</string>
+    <string name="tv_tip6">\tLos niños y ancianos son especialmente \n\tvulnerables a la contaminación</string>
+    <string name="tv_tip7">\tSi estás embarazada, procura llevar mascarilla \n\tlos días de mayor alerta</string>
+    <string name="tv_tip8">\tRespeta las restricciones de velocidad y acceso \n\tde vehículos a zonas centrales</string>
+    <string name="tv_tip9">\tCierra la llave de la calefacción en las \n\thabitaciones que no utilices</string>
+    <string name="tv_tip10">\tVentila la casa en la hora en que la \n\ttemperatura es más favorable</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+    <string name="navigation_drawer_open">Ouvrir navigation drawer</string>
+    <string name="navigation_drawer_close">Fermer navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Réglages</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Scénarios/Réglementations</string>
+    <string name="menu_tools">Outils</string>
+    <string name="menu_share">Diffuser</string>
+    <string name="menu_send">Envoyer</string>
+    <string name="nav_header_nameUser">Utilisateur</string>
+    <string name="nav_header_mailUser">xxxxx@xxx.com</string>
+    <string name="menu_normative">Réglementation</string>
+    <string name="menu_contaminantes">Composants de l\'air</string>
+    <string name="btn_normativa_saber_mas">En savoir plus</string>
+    <string name="action_acerca_de">À propos de HealthyAir</string>
+
+
+    <string name="nombre_desarrollador_1">Carlos Pardos</string>
+    <string name="descripcion_desarrollador_1">Software developer, Cloud Master, Tester and Apprentice of the team</string>
+
+    <string name="nombre_desarrollador_2">Luis Fernández</string>
+    <string name="descripcion_desarrollador_2">CEO, Software developer, Analyst and Master Designer</string>
+
+    <string name="nombre_desarrollador_3">Ricardo Gutierrez</string>
+    <string name="descripcion_desarrollador_3">Software developer, Technical assistant and Junior Designer </string>
+    <string name="texto_desc_app">HealthyAir\n Universidad Europea de Madrid\nMadrid 2020</string>
+    <string name="menu_marcadores">Stations</string>
+    <string name="title_activity_maps">Plan</string>
+    <string name="menu_estaciones">Stations</string>
+    <string name="nav_datos_reales">Données en temps réel</string>
+    <string name="menu_datos_reales">Données en temps réel</string>
+    <string name="text_fragment_datos_reales">Information en temps réel:</string>
+    <string name="tv_provincia">Province: %s</string>
+    <string name="tv_municipio">Municipalité: %s</string>
+    <string name="tv_estacion">Station: %s</string>
+    <string name="tv_fecha">Date: %1$s/%2$s/%3$s</string>
+    <string name="tv_muestreo">Point d\'échantillonnage: %s</string>
+    <string name="tv_magnitud">Code de Magnitude: %s</string>
+    <string name="tv_nivel8am">Donnée 8h: %s</string>
+    <string name="tv_nivel16pm">Donnée 16h: %s</string>
+    <string name="tv_nivel24pm">Donnée 24h: %s</string>
+</resources>
