@@ -74,8 +74,7 @@
     <string name="tv_nivel8am">Nivel 8h: %s</string>
     <string name="tv_nivel16pm">Nivel 16h: %s</string>
     <string name="tv_nivel24pm">Nivel 24h: %s</string>
-
-
+    <string name="navigation_drawer_otros">Otros</string>
 
 
 </resources>
