@@ -21,6 +21,7 @@
     <string name="btn_atras"><![CDATA[<]]></string>
     <string name="btn_avanzar"><![CDATA[>]]></string>
     <string name="tv_tips_contam">quelques conseils sur la pollution</string>
+
     <string name="tv_tip1">\tEvita salir a la calle los días de mayor \n\tcontaminación</string>
     <string name="tv_tip2">\tLos días de más contaminación puedes usar \n\tmascarilla si tienes problemas respiratorios</string>
     <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
@@ -40,7 +41,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Scénarios/Réglementations</string>
     <string name="menu_tools">Outils</string>
-    <string name="menu_share">Diffuser</string>
+    <string name="menu_cam">Comunidad de Madrid </string>
     <string name="menu_send">Envoyer</string>
     <string name="nav_header_nameUser">Utilisateur</string>
     <string name="nav_header_mailUser">xxxxx@xxx.com</string>
