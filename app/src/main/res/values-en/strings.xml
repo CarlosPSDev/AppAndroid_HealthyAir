@@ -29,7 +29,7 @@
     <string name="tv_tip6">\tChildren and the elderly are especially \n\tvulnerable to contamination</string>
     <string name="tv_tip7">\tIf you are pregnant, try to wear a mask \n\ton the most alert days</string>
     <string name="tv_tip8">\tRespect speed restrictions and vehicle access \n\tto central areas</string>
-    <string name="tv_tip9">\tTurn off the heating key in rooms \n\tthat you don't use</string>
+    <string name="tv_tip9">\tTurn off the heating key in rooms \n\tthat you don\'t use</string>
     <string name="tv_tip10">\tVentilate the house at the time when \n\tthe temperature is the most favorable</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
