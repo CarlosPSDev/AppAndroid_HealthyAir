@@ -3,108 +3,97 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
 
     android:background="@color/colorFragTip2"
     tools:context=".TipsFrag2">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="190dp"
+            app:layout_constraintTop_toTopOf="parent"
             android:scaleType="centerCrop"
             android:src="@drawable/tips2" />
 
        <TextView
+           android:id="@+id/tvTit2"
            android:layout_marginTop="25dp"
            android:textAlignment="center"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:fontFamily="sans-serif-black"
            android:textSize="20sp"
+           app:layout_constraintTop_toBottomOf="@id/imageView"
            android:text="@string/tv_tips_contam"/>
+
         <TextView
+            android:id="@+id/tvUno2"
             android:layout_marginTop="25dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_regular"
-            android:textSize="17.5sp"
-            android:drawableLeft="@drawable/vinetas"
-            android:layout_marginLeft="10dp"
+            style="@style/textView_tips"
+            app:layout_constraintTop_toBottomOf="@id/tvTit2"
             android:text="@string/tv_tip1"/>
+
         <TextView
-            android:layout_marginTop="15dp"
+            android:id="@+id/tvDos2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_regular"
-            android:textSize="17.5sp"
-            android:drawableLeft="@drawable/vinetas"
-            android:layout_marginLeft="10dp"
-            android:text="@string/tv_tip2"/>
+            app:layout_constraintTop_toBottomOf="@id/tvUno2"
+            android:text="@string/tv_tip2"
+            style="@style/textView_tips" />
+
         <TextView
-            android:layout_marginTop="15dp"
+            android:id="@+id/tvTres2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_regular"
-            android:textSize="17.5sp"
-            android:drawableLeft="@drawable/vinetas"
-            android:layout_marginLeft="10dp"
+            style="@style/textView_tips"
+            app:layout_constraintTop_toBottomOf="@id/tvDos2"
             android:text="@string/tv_tip3"/>
+
         <TextView
-            android:layout_marginTop="15dp"
+            android:id="@+id/tvCuatro2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_regular"
-            android:textSize="17.5sp"
-            android:drawableLeft="@drawable/vinetas"
-            android:layout_marginLeft="10dp"
+            style="@style/textView_tips"
+            app:layout_constraintTop_toBottomOf="@id/tvTres2"
             android:text="@string/tv_tip4"/>
+
         <TextView
-            android:layout_marginTop="15dp"
+            android:id="@+id/tvCinco2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/roboto_regular"
-            android:textSize="17.5sp"
-            android:drawableLeft="@drawable/vinetas"
-            android:layout_marginLeft="10dp"
+            style="@style/textView_tips"
+            app:layout_constraintTop_toBottomOf="@id/tvCuatro2"
             android:text="@string/tv_tip5"/>
 
-        <LinearLayout
-            android:layout_marginTop="50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAtras2"
+            style="@style/buttonTips"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnOmitir2"
+            android:text="@string/btn_atras" />
 
-            <Button
-                android:id="@+id/btnAtras2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="20sp"
-                android:text="@string/btn_atras" />
+        <Button
+            android:id="@+id/btnOmitir2"
+            style="@style/buttonTips"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnAtras2"
+            app:layout_constraintEnd_toStartOf="@id/btnAvanzar2"
+            android:text="@string/btn_omitir" />
 
-            <Button
-                android:id="@+id/btnOmitir2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="16dp"
-                android:paddingBottom="12dp"
-                android:layout_weight="1"
-                android:textAllCaps="false"
-                android:text="@string/btn_omitir" />
+        <Button
+            android:id="@+id/btnAvanzar2"
+            style="@style/buttonTips"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnOmitir2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20sp"
+            android:text="@string/btn_avanzar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <Button
-                android:id="@+id/btnAvanzar2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="20sp"
-                android:text="@string/btn_avanzar" />
-        </LinearLayout>
-    </LinearLayout>
 </FrameLayout>

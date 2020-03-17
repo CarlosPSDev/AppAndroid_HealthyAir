@@ -8,55 +8,51 @@
     tools:context=".TipsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="190dp"
+            app:layout_constraintTop_toTopOf="parent"
             android:scaleType="centerCrop"
             android:src="@drawable/tips1" />
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="363dp"
             android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/imageView1"
+            app:layout_constraintBottom_toTopOf="@id/btnOmitir"
             android:src="@drawable/placasdgt" />
 
-        <LinearLayout
-            android:layout_marginTop="40dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnAtras"
+            style="@style/buttonTips"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/btnOmitir"
+            android:text="@string/btn_atras" />
 
-            <Button
-                android:id="@+id/btnAtras"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="20sp"
-                android:text="@string/btn_atras" />
+        <Button
+            android:id="@+id/btnOmitir"
+            style="@style/buttonTips"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnAtras"
+            app:layout_constraintEnd_toStartOf="@id/btnAvanzar"
+            android:text="@string/btn_omitir" />
 
-            <Button
-                android:id="@+id/btnOmitir"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textAllCaps="false"
-                android:text="@string/btn_omitir" />
-
-            <Button
-                android:id="@+id/btnAvanzar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="20sp"
-                android:text="@string/btn_avanzar" />
-        </LinearLayout>
-    </LinearLayout>
+        <Button
+            android:id="@+id/btnAvanzar"
+            style="@style/buttonTips"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnOmitir"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="20sp"
+            android:text="@string/btn_avanzar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
