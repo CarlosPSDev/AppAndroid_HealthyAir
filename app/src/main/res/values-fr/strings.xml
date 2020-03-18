@@ -75,4 +75,10 @@
     <string name="tv_nivel8am">Donnée 8h: %s</string>
     <string name="tv_nivel16pm">Donnée 16h: %s</string>
     <string name="tv_nivel24pm">Donnée 24h: %s</string>
+    <string name="navigation_drawer_otros">Autres options</string>
+    <string name="menu_log_out">Abadonner</string>
+    <string name="msg_salida">Confirmer la sortie</string>
+    <string name="pregunta_salida">Tu es sûr de quitter?</string>
+    <string name="salida_si">Oui</string>
+    <string name="salida_no">No</string>
 </resources>
