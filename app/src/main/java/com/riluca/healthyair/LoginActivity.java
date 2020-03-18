@@ -93,9 +93,9 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
                         etEmail.setText("");
                         etPassword.setText("");
 
-                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                        startActivity(i);
-                        //lanzarFragment(new TipsFragment());
+                        /*Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                        startActivity(i);*/
+                        lanzarFragment(new TipsFragment());
 
                     } else {
                         Toast.makeText(LoginActivity.this, getString(R.string.msg_no_accede), Toast.LENGTH_SHORT).show();

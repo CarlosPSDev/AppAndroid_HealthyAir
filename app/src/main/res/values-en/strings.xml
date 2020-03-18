@@ -74,4 +74,10 @@
     <string name="tv_nivel8am">Value 8h: %s</string>
     <string name="tv_nivel16pm">Value 16h: %s</string>
     <string name="tv_nivel24pm">Value 24h: %s</string>
+    <string name="navigation_drawer_otros">Other issues</string>
+    <string name="menu_log_out">Exit</string>
+    <string name="msg_salida">Confirm exit</string>
+    <string name="pregunta_salida">Are you sure to quit?</string>
+    <string name="salida_si">Yes</string>
+    <string name="salida_no">No</string>
 </resources>

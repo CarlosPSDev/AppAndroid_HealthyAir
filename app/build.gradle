@@ -39,8 +39,6 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-simplexml:2.5.0'
     implementation 'com.github.barteksc:android-pdf-viewer:3.1.0-beta.1'
     implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
-    //Conversor xml, si peta poner 2.7.1
-
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
