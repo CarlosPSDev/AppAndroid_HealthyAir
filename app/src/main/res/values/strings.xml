@@ -23,12 +23,12 @@
     <string name="tv_tips_contam">Algunos tips sobre contaminación</string>
     <string name="tv_tip1">\tEvita salir a la calle los días de mayor \n\tcontaminación</string>
     <string name="tv_tip2">\tLos días de más contaminación puedes usar \n\tmascarilla si tienes problemas respiratorios</string>
-    <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras \n\thaya alertas por contaminación</string>
+    <string name="tv_tip3">\tEvita hacer deporte al aire libre mientras haya \n\talertas por contaminación</string>
     <string name="tv_tip4">\tUtiliza bicicleta o el transporte público en la \n\tmedida de lo posible</string>
     <string name="tv_tip5">\tPor cada grado de temperatura aumentan \n\tlas emisiones de gases un 7%</string>
     <string name="tv_tip6">\tLos niños y ancianos son especialmente \n\tvulnerables a la contaminación</string>
     <string name="tv_tip7">\tSi estás embarazada, procura llevar mascarilla \n\tlos días de mayor alerta</string>
-    <string name="tv_tip8">\tRespeta las restricciones de velocidad y acceso \n\tde vehículos a zonas centrales</string>
+    <string name="tv_tip8">\tRespeta las restricciones de velocidad y \n\tacceso de vehículos a zonas centrales</string>
     <string name="tv_tip9">\tCierra la llave de la calefacción en las \n\thabitaciones que no utilices</string>
     <string name="tv_tip10">\tVentila la casa en la hora en que la \n\ttemperatura es más favorable</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
