@@ -75,6 +75,11 @@
     <string name="tv_nivel16pm">Nivel 16h: %s</string>
     <string name="tv_nivel24pm">Nivel 24h: %s</string>
     <string name="navigation_drawer_otros">Otros</string>
+    <string name="menu_log_out">Salir</string>
+    <string name="msg_salida">Confirmar salida</string>
+    <string name="pregunta_salida">¿Estás seguro de salir?</string>
+    <string name="salida_si">Si</string>
+    <string name="salida_no">No</string>
 
 
 </resources>

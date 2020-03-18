@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/blue"
         android:text="@string/nombreApp"
-        android:fontFamily="@font/indieflower_regular"
+        android:fontFamily="sans-serif-black"
         android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

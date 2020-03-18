@@ -42,8 +42,8 @@
         tools:layout="@layout/fragment_web_madrid" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="com.riluca.healthyair.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_log_out"
+        android:name="com.riluca.healthyair.ui.logOut.LogOutFragment"
+        android:label="@string/menu_log_out"
+        tools:layout="@layout/fragment_log_out" />
 </navigation>
