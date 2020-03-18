@@ -48,10 +48,6 @@ public class ContAdaptador extends RecyclerView.Adapter<ContAdaptador.ContViewHo
 
     }
 
-    public void asignacionOnClickListener(View.OnClickListener listener){
-        contaminantesAdapListener = listener;
-    }
-
     public static class ContViewHolder extends RecyclerView.ViewHolder{
 
         private ImageView iv;

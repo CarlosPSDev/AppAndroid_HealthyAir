@@ -53,7 +53,6 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        //Carlos: Traslado aqui la inicializacion del mMap
         mMapView = mView.findViewById(R.id.maps);
         if (mMapView != null) {
             mMapView.onCreate(null);
@@ -69,7 +68,7 @@ public class HomeFragment extends Fragment implements OnMapReadyCallback {
         MapsInitializer.initialize(getContext());
 
         mGoogleMap = googleMap;
-        mGoogleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
+        mGoogleMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
 
         // Verificar permisos de localización.
         if (ActivityCompat.checkSelfPermission(getActivity(), Manifest.permission.ACCESS_FINE_LOCATION)

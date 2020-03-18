@@ -116,10 +116,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 estacion =  document.toObject(Estacion.class);
                                 listaEstaciones.add(estacion);
-                                //Log.d("resul", "result Data: " + estacion.getNombre());
                             }
                             recopilarMarcadores(listaEstaciones);
-                            /*INVOCA AQUI A TU METODO PASANDOLE EL ARRAYLIST YA RELLENITO*/
+
                         } else {
                             Log.w("Ha habido un error", "Error getting documents.", task.getException());
                         }
@@ -134,13 +133,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
 
         try {
-            //for(int i=0 ; i< listaEstaciones.size() ; i++) {
             LatLng = new LatLng(32.533890,-117.037507);
             LatLng loc = new LatLng(32.514054,-117.031813);
             mMap.addMarker(new MarkerOptions().position(loc).title("Tu posición"));
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, 14));
             mMap.getUiSettings().setZoomControlsEnabled(true);
-            //}
+
         } catch (Exception e) {
             e.printStackTrace();
         }

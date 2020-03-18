@@ -16,8 +16,6 @@ import java.util.ArrayList;
 
 public class ContFragment extends Fragment {
 
-    static final String CLAVE_ITEM = "ITEM";
-
     RecyclerView rv;
     LinearLayoutManager llm;
     ArrayList<ItemLista> listaDatos;
@@ -37,17 +35,6 @@ public class ContFragment extends Fragment {
 
         adapter = new ContAdaptador(listaDatos);
 
-        adapter.asignacionOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int i = rv.indexOfChild(v);
-                ItemLista caso = listaDatos.get(i);
-
-                //Intent intent = new Intent(getContext(), ContamInfoActivity.class);
-                //intent.putExtra(CLAVE_ITEM, caso);
-                //startActivity(intent);
-            }
-        });
         rv.setAdapter(adapter);
 
         return vista;
