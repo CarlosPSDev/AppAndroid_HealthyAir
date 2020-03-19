@@ -38,7 +38,7 @@ public class RealDatosFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {  // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_realdatos, container, false);        rv = v.findViewById(R.id.rvRealDatos);
+        View v = inflater.inflate(R.layout.fragment_realdatos, container, false);
         rv = v.findViewById(R.id.rvRealDatos);
         consumirWs();
         return v;

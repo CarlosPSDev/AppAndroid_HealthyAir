@@ -36,4 +36,8 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:background">@color/et1</item>
+    </style>
+
 </resources>

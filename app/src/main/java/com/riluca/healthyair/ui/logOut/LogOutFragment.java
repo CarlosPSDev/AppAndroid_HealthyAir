@@ -17,18 +17,15 @@ import com.riluca.healthyair.R;
 
 public class LogOutFragment extends Fragment {
 
-    FirebaseAuth fba;
-
     public View onCreateView(@NonNull LayoutInflater inflater,ViewGroup container, Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.fragment_log_out, container, false);
 
-        final AlertDialog.Builder dialog = new AlertDialog.Builder(getContext());
+        final AlertDialog.Builder dialog = new AlertDialog.Builder(getContext(), R.style.AlertDialogStyle);
         dialog.setTitle(R.string.msg_salida)
                 .setMessage(R.string.pregunta_salida)
                 .setPositiveButton(R.string.salida_si, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface paramDialogInterface, int paramInt) {
-
-                        fba = FirebaseAuth.getInstance();
 
                         Intent intent = new Intent(Intent.ACTION_MAIN);
                         intent.addCategory(Intent.CATEGORY_HOME);
@@ -45,6 +42,6 @@ public class LogOutFragment extends Fragment {
                 });
         dialog.show();
 
-        return null;
+        return v;
     }
 }

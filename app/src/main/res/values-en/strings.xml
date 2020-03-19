@@ -49,9 +49,8 @@
     <string name="btn_normativa_saber_mas">Further information</string>
     <string name="action_acerca_de">About HealthyAir</string>
 
-
     <string name="nombre_desarrollador_1">Carlos Pardos</string>
-    <string name="descripcion_desarrollador_1">Software developer, Cloud Master, and Tester of the team</string>
+    <string name="descripcion_desarrollador_1">Software developer, Cloud Master and Tester of the team</string>
 
     <string name="nombre_desarrollador_2">Luis Fernández</string>
     <string name="descripcion_desarrollador_2">CEO, Software developer, Analyst and Master Designer</string>
