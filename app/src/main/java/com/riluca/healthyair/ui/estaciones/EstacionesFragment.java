@@ -1,4 +1,4 @@
-package com.riluca.healthyair.ui.Estaciones;
+package com.riluca.healthyair.ui.estaciones;
 
 import android.os.Bundle;
 import android.util.Log;

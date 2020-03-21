@@ -87,9 +87,11 @@ public class RealDatosAdapter extends RecyclerView.Adapter<RealDatosAdapter.Dato
             String magnitud = (magnitudes.containsKey(codMag))? codMagnit + " " + magnitudes.get(codMag): codMagnit;
             tvMagnitud.setText(String.format(contexto.getString(R.string.tv_magnitud), magnitud));
 
-            tvNivel8am.setText(String.format(contexto.getString(R.string.tv_nivel8am), datoH.getH08()));
-            tvNivel6pm.setText(String.format(contexto.getString(R.string.tv_nivel16pm), datoH.getH16()));
-            tvNive24pm.setText(String.format(contexto.getString(R.string.tv_nivel24pm), datoH.getH24()));
+            String medida = "μg/m3"; //Mostramos la medida del contaminante según el tipo
+            if (codMag == 6 | (codMag >= 42 & codMag <= 44)) medida = "mg/m3";
+            tvNivel8am.setText(String.format(contexto.getString(R.string.tv_nivel8am), datoH.getH08(), medida));
+            tvNivel6pm.setText(String.format(contexto.getString(R.string.tv_nivel16pm), datoH.getH16(), medida));
+            tvNive24pm.setText(String.format(contexto.getString(R.string.tv_nivel24pm), datoH.getH24(), medida));
         }
     }
 }

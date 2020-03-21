@@ -70,9 +70,9 @@
     <string name="tv_fecha">Date: %2$s/%1$s/%3$s</string>
     <string name="tv_muestreo">Sampling Point: %s</string>
     <string name="tv_magnitud">Magnitude Code: %s</string>
-    <string name="tv_nivel8am">Value 8h: %s</string>
-    <string name="tv_nivel16pm">Value 16h: %s</string>
-    <string name="tv_nivel24pm">Value 24h: %s</string>
+    <string name="tv_nivel8am">Value 8h: %1$s %2$s</string>
+    <string name="tv_nivel16pm">Value 16h: %1$s %2$s</string>
+    <string name="tv_nivel24pm">Value 24h: %1$s %2$s</string>
     <string name="navigation_drawer_otros">Other issues</string>
     <string name="menu_log_out">Exit</string>
     <string name="msg_salida">Confirm exit</string>

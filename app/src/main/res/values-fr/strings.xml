@@ -72,9 +72,9 @@
     <string name="tv_fecha">Date: %1$s/%2$s/%3$s</string>
     <string name="tv_muestreo">Point d\'échantillonnage: %s</string>
     <string name="tv_magnitud">Code de Magnitude: %s</string>
-    <string name="tv_nivel8am">Donnée 8h: %s</string>
-    <string name="tv_nivel16pm">Donnée 16h: %s</string>
-    <string name="tv_nivel24pm">Donnée 24h: %s</string>
+    <string name="tv_nivel8am">Donnée 8h: %1$s %2$s</string>
+    <string name="tv_nivel16pm">Donnée 16h: %1$s %2$s</string>
+    <string name="tv_nivel24pm">Donnée 24h: %1$s %2$s</string>
     <string name="navigation_drawer_otros">Autres options</string>
     <string name="menu_log_out">Abadonner</string>
     <string name="msg_salida">Confirmer la sortie</string>
