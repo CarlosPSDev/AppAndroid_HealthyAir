@@ -35,9 +35,6 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".ui.estaciones.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
         <activity android:name=".ui.quienes_somos.QuienesActivity" />
         <activity
             android:name=".NavigationDrawerActivity"

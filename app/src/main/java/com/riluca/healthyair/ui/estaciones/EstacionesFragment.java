@@ -56,7 +56,7 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
     }
 
     @Override
-    public void onMapReady(final GoogleMap googleMap) {
+    public void onMapReady(GoogleMap googleMap) {
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         MapsInitializer.initialize(getContext());
 
@@ -72,11 +72,10 @@ public class EstacionesFragment extends Fragment implements OnMapReadyCallback {
                         if (task.isSuccessful()) {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 estacion =  document.toObject(Estacion.class);
-                                Log.d("resul", "result Data: " + estacion.getNombre());
 
                                 LatLng loc = new LatLng(Double.parseDouble(estacion.getLatitud()),
-                                        Double.parseDouble(estacion.getLongitud())); //Aqui guarda directamente el valor de la estacion
-                                mGoogleMap = googleMap;//<--Esto hay que volver a hacerlo en cada iteracion? Si ya esta arriba y no hace falta quitamos el Final
+                                        Double.parseDouble(estacion.getLongitud()));
+                                //mGoogleMap = googleMap;
                                 mGoogleMap.addMarker(new MarkerOptions()
                                         .position(loc)
                                         .title(estacion.getNombre())
