@@ -13,8 +13,8 @@ android {
         applicationId "com.riluca.healthyair"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 4
-        versionName "4.0"
+        versionCode 5
+        versionName "5.0"
         multiDexEnabled true //Lo ponemos para acompañar el multidex
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
