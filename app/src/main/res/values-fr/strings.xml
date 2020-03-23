@@ -22,16 +22,16 @@
     <string name="btn_avanzar"><![CDATA[>]]></string>
     <string name="tv_tips_contam">Quelques conseils sur la pollution</string>
 
-    <string name="tv_tip1">\tÉvite de sortir dans la rue les jour de plus forte \n\tcontamination</string>
-    <string name="tv_tip2">\tSi tu souffes de problèmes respiratoires utilise\n\tun masque les jours plus contaminés</string>
-    <string name="tv_tip3">\tÉvite de faire du sport à l\'extérieur pendant\n\tqu\'il y a des alertes de pollution</string>
-    <string name="tv_tip4">\tUtilise autant que possible le vélo et les \n\ttransports publics</string>
-    <string name="tv_tip5">\tLes émissions de gaz augmentent de 7% pour \n\tchaque dégré de plus de température</string>
-    <string name="tv_tip6">\tLes enfants et les personnes âgées sont parti-\n\tculièrement vulnérables à la contamination</string>
-    <string name="tv_tip7">\tSi tu es enceinte, essaie de porter un masque \n\tles jours de grandes alertes</string>
-    <string name="tv_tip8">\tRespecte les restrictions de vitesse et d\'accès \n\tdes véhicules aux zones centrales</string>
-    <string name="tv_tip9">\tFerme la clé du chauffage des pièces que \n\ttu n\'utilises pas</string>
-    <string name="tv_tip10">\tAére la maison au moment où la température \n\test la plus favorable</string>
+    <string name="tv_tip1">Évite de sortir dans la rue les jour de plus forte contamination</string>
+    <string name="tv_tip2">Si tu souffres de problèmes respiratoires utilise un masque les jours plus contaminés</string>
+    <string name="tv_tip3">Évite de faire du sport à l\'extérieur pendant qu\'il y a des alertes de pollution</string>
+    <string name="tv_tip4">Utilise autant que possible le vélo et les transports publics</string>
+    <string name="tv_tip5">Les émissions de gaz augmentent de 7% pour chaque dégré de plus de température</string>
+    <string name="tv_tip6">Les enfants et les personnes âgées sont parti-culièrement vulnérables à la contamination</string>
+    <string name="tv_tip7">Si tu es enceinte, essaie de porter un masque les jours de grandes alertes</string>
+    <string name="tv_tip8">Respecte les restrictions de vitesse et d\'accès des véhicules aux zones centrales</string>
+    <string name="tv_tip9">Ferme la clé du chauffage des pièces que tu n\'utilises pas</string>
+    <string name="tv_tip10">Aére la maison au moment où la température est la plus favorable</string>
     <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
     <string name="navigation_drawer_open">Ouvrir navigation drawer</string>
     <string name="navigation_drawer_close">Fermer navigation drawer</string>

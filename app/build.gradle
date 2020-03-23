@@ -8,13 +8,13 @@ android {
     }
 
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
+    buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.riluca.healthyair"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 5
-        versionName "5.0"
+        versionCode 6
+        versionName "6.0"
         multiDexEnabled true //Lo ponemos para acompañar el multidex
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

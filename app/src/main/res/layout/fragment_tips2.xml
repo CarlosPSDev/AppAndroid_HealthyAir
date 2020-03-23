@@ -33,40 +33,81 @@
            app:layout_constraintTop_toBottomOf="@id/imageView"
            android:text="@string/tv_tips_contam"/>
 
+        <ImageView
+            android:id="@+id/ivV11"
+            android:layout_marginTop="32dp"
+            app:layout_constraintEnd_toStartOf="@id/tvUno2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTit2"
+            style="@style/imageVineta" />
+
         <TextView
             android:id="@+id/tvUno2"
             android:layout_marginTop="24dp"
-            android:layout_width="match_parent"
             style="@style/textView_tips"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivV11"
             app:layout_constraintTop_toBottomOf="@id/tvTit2"
             android:text="@string/tv_tip1"/>
 
+        <ImageView
+            android:id="@+id/ivV21"
+            app:layout_constraintEnd_toStartOf="@id/tvDos2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvUno2"
+            style="@style/imageVineta" />
+
         <TextView
             android:id="@+id/tvDos2"
-            android:layout_width="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvUno2"
+            app:layout_constraintStart_toEndOf="@id/ivV21"
             android:text="@string/tv_tip2"
             style="@style/textView_tips" />
 
+        <ImageView
+            android:id="@+id/ivV31"
+            app:layout_constraintEnd_toStartOf="@id/tvTres2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDos2"
+            style="@style/imageVineta" />
+
         <TextView
             android:id="@+id/tvTres2"
-            android:layout_width="match_parent"
             style="@style/textView_tips"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvDos2"
+            app:layout_constraintStart_toEndOf="@id/ivV31"
             android:text="@string/tv_tip3"/>
+
+        <ImageView
+            android:id="@+id/ivV41"
+            app:layout_constraintEnd_toStartOf="@id/tvCuatro2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTres2"
+            style="@style/imageVineta" />
 
         <TextView
             android:id="@+id/tvCuatro2"
-            android:layout_width="match_parent"
             style="@style/textView_tips"
             app:layout_constraintTop_toBottomOf="@id/tvTres2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivV41"
             android:text="@string/tv_tip4"/>
+
+        <ImageView
+            android:id="@+id/ivV51"
+            app:layout_constraintEnd_toStartOf="@id/tvCinco2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvCuatro2"
+            style="@style/imageVineta" />
 
         <TextView
             android:id="@+id/tvCinco2"
-            android:layout_width="match_parent"
             style="@style/textView_tips"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvCuatro2"
+            app:layout_constraintStart_toEndOf="@id/ivV51"
             android:text="@string/tv_tip5"/>
 
         <Button
