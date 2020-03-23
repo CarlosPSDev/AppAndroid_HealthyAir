@@ -40,6 +40,7 @@ public class LogOutFragment extends Fragment {
                         startActivity(i);
                     }
                 });
+        dialog.setCancelable(false);
         dialog.show();
 
         return v;
