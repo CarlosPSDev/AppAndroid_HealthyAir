@@ -1,6 +1,6 @@
 # pi1920v-riluca
 Vídeo promocional y de presentación: <br/><br/>
-[![Presentación HealthyAir](https://img.youtube.com/vi/gBEGHqSUzSQ.jpg)](https://www.youtube.com/watch?v=gBEGHqSUzSQ "Presentación Healthy Air, tu app de salud ambiental")
+[![Presentación HealthyAir](https://img.youtube.com/vi/gBEGHqSUzSQ/0.jpg)](https://www.youtube.com/watch?v=gBEGHqSUzSQ "Presentación Healthy Air, tu app de salud ambiental")
 <br/><br/>
 Vídeo de funcionamiento: <br/><br/>
 [![Funcionamiento HealthyAir](http://img.youtube.com/vi/h8ycUZZeswM/0.jpg)](http://www.youtube.com/watch?v=h8ycUZZeswM "Presentación HealthyAir")
