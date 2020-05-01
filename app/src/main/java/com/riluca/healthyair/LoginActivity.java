@@ -117,12 +117,7 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
     }
 
     private void lanzarFragment(Fragment fragmenLanzar) {
-        //En el metodo que valide el login que lance el fragmento, para simular el tiempo le pongo un sleep
-        try {
-            Thread.sleep(2300);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+       
         btnLogin.setVisibility(View.INVISIBLE);
         btnRegis.setVisibility(View.INVISIBLE);
 
