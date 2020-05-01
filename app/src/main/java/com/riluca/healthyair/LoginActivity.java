@@ -117,7 +117,7 @@ public class LoginActivity extends AppCompatActivity implements InterfaceMethods
     }
 
     private void lanzarFragment(Fragment fragmenLanzar) {
-       
+
         btnLogin.setVisibility(View.INVISIBLE);
         btnRegis.setVisibility(View.INVISIBLE);
 
